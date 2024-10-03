@@ -4,7 +4,7 @@ RSparsePro is a command line tool for robust fine-mapping in the presence of LD 
 
 ## Overview 
 
-RSparsePro takes GWAS summary statistics (z-scores) and an LD reference panel to approximate the GWAS population (LD matrix) as input. In RSparsePro, we introduce a latent z-score variable to address potential inconsistencies between the LD reference panel and the GWAS summary statistics, enabling robust fine-mapping.
+RSparsePro takes GWAS summary statistics (z-scores) and an LD reference panel (LD matrix) as input. In RSparsePro, we introduce a latent variable to address potential inconsistencies between the GWAS population and the LD reference panel, enabling robust fine-mapping.
 
 
 <p align="center">
@@ -38,13 +38,15 @@ python src/rsparsepro_ld.py -h
 
 Example input files are included in the [dat](dat/) directory. 
 
-1. The **z-score** file: The column for z-scores must have the header "Z" and is required. You may include additional relevant information in the file, but RSparsePro will not utilize it. An example can be found at [test.z.txt](dat/test.z.txt).
+1. The **z-score** file: The column for z-scores must have the header 'Z', and the column for SNP index must have the header 'RSID'. Both columns are required. You may include additional columns in the file, but RSparsePro will not utilize other information. An example can be found at [test.z.txt](dat/test.z.txt).
 
-2. The **LD** file: The LD file contains the LD matrix, which includes the Pearson correlation between variants, with values separated by a single space. An example can be found at [dat/ld.txt](dat/ld.txt).
+2. The **LD** file: The LD file contains the LD matrix, which includes the Pearson correlation between each pair of variants, with values separated by a single space. An example can be found at [dat/ld.txt](dat/ld.txt).
+
+**While RSparsePro can handle allele flipping, it is strongly recommended to ensure the REF/ALT alleles used in calculating the LD matrix match those from the GWAS study.**
 
 ## Usage examples
 
-We use `--z` and `--ld` to indicate the path to the zscore file and the ld file, respectively. Additionally, we can specify path to save results with `--save`.
+We use `--z` and `--ld` to indicate the path to the zscore file and the ld file, respectively. Additionally, we can specify the path to save results with `--save`.
 
 ```
 python src/rsparsepro_ld.py \
@@ -55,9 +57,9 @@ python src/rsparsepro_ld.py \
 
 ## Output files
 
-After a successful execution of RSparsePro, we will append three new columns to the input z-score file in the output [result file](dat/test.rsparsepro.txt): `PIP` for posterior inclusion probability, `z_estimated` for estimated latent z-scores, and `cs` for credible sets. 
+After a successful execution of RSparsePro, we will append three new columns to the input z-score file in the output [result file](dat/test.rsparsepro.txt): `PIP` for posterior inclusion probability, `z_estimated` for estimated latent z-scores, and `cs` for credible sets. Variants in credible sets will have non-zero values in the `cs` column.
 
-Additionally, the [log file](dat/test.rsparsepro.log) records the convergence process of the algorithm.
+Additionally, the [log file](dat/test.rsparsepro.log) records the execution process of the algorithm.
 
 ## Citations
 
