@@ -5,12 +5,11 @@ import logging
 import pandas as pd
 
 def title():
-    print('**********************************************************************')
-    print('* RSparsePro for robust fine-mapping in the presence of LD mismatch  *')
-    print('* Version 1.0.0                                                      *')
-    print('* (C) Wenmin Zhang (wenmin.zhang@mail.mcgill.ca)                     *')
-    print('**********************************************************************')
-    print()
+    logging.info('**********************************************************************')
+    logging.info('* RSparsePro for robust fine-mapping in the presence of LD mismatch  *')
+    logging.info('* Version 1.0.0                                                      *')
+    logging.info('* (C) Wenmin Zhang (wenmin.zhang@mail.mcgill.ca)                     *')
+    logging.info('**********************************************************************')
 
 class RSparsePro(object):
     def __init__(self, P, K, R, vare):
@@ -174,6 +173,7 @@ def print_args(args):
 if __name__ == '__main__':
     args = parse_args()
     logging.basicConfig(filename='{}.rsparsepro.log'.format(args.save), level=logging.INFO, filemode='w', format='%(asctime)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S') # 
+    title()
     print_args(args)
     zfile = pd.read_csv(args.z, sep='\t')
     ld = pd.read_csv(args.ld, sep='\s+', header=None).fillna(0).values

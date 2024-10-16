@@ -1,595 +1,600 @@
-2024-10-02 20:38:54 - z: dat/test.z.txt
-2024-10-02 20:38:54 - ld: dat/ld.txt
-2024-10-02 20:38:54 - save: dat/test
-2024-10-02 20:38:54 - K: 10
-2024-10-02 20:38:54 - maxite: 100
-2024-10-02 20:38:54 - eps: 1e-05
-2024-10-02 20:38:54 - ubound: 100000
-2024-10-02 20:38:54 - cthres: 0.95
-2024-10-02 20:38:54 - eincre: 1.5
-2024-10-02 20:38:54 - minldthres: 0.7
-2024-10-02 20:38:54 - maxldthres: 0.2
-2024-10-02 20:38:54 - varemax: 100.0
-2024-10-02 20:38:54 - varemin: 0.001
-2024-10-02 20:38:54 - Iteration-->0 . Diff_b: 111.8 . Diff_s: 2.2 . Diff_mu: 207.8 . ALL: 321.8
-2024-10-02 20:38:54 - Iteration-->1 . Diff_b: 0.0 . Diff_s: 0.8 . Diff_mu: 295.9 . ALL: 296.7
-2024-10-02 20:38:54 - Iteration-->2 . Diff_b: 0.0 . Diff_s: 0.2 . Diff_mu: 221.2 . ALL: 221.4
-2024-10-02 20:38:54 - Iteration-->3 . Diff_b: 0.0 . Diff_s: 1.0 . Diff_mu: 243.2 . ALL: 244.2
-2024-10-02 20:38:54 - Iteration-->4 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 226.3 . ALL: 226.4
-2024-10-02 20:38:54 - Iteration-->5 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 222.8 . ALL: 222.9
-2024-10-02 20:38:54 - Iteration-->6 . Diff_b: 0.0 . Diff_s: 0.2 . Diff_mu: 222.7 . ALL: 222.9
-2024-10-02 20:38:54 - Iteration-->7 . Diff_b: 0.0 . Diff_s: 0.2 . Diff_mu: 222.7 . ALL: 222.9
-2024-10-02 20:38:54 - Iteration-->8 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 222.8 . ALL: 222.9
-2024-10-02 20:38:54 - Iteration-->9 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 222.8 . ALL: 222.9
-2024-10-02 20:38:54 - Iteration-->10 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.8 . ALL: 222.9
-2024-10-02 20:38:54 - Iteration-->11 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:54 - Iteration-->12 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:54 - Iteration-->13 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:54 - Iteration-->14 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:54 - Iteration-->15 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->16 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->17 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->18 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->19 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->20 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->21 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->22 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->23 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->24 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->25 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->26 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->27 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->28 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->29 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->30 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->31 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->32 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->33 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->34 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->35 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->36 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->37 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->38 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->39 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->40 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->41 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->42 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->43 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->44 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->45 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->46 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->47 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->48 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->49 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->50 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->51 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->52 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->53 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->54 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->55 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->56 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->57 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->58 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->59 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->60 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->61 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->62 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->63 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->64 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->65 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->66 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->67 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->68 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->69 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->70 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->71 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->72 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->73 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->74 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->75 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->76 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->77 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->78 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->79 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->80 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->81 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->82 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->83 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->84 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->85 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->86 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->87 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->88 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->89 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->90 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->91 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->92 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->93 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->94 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->95 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->96 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->97 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->98 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - Iteration-->99 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
-2024-10-02 20:38:55 - The RSparsePro algorithm didn't converge.
-2024-10-02 20:38:55 - Attainable coverage for effect groups: [1. 1. 1. 1. 0. 0. 0. 0. 0. 0.]
-2024-10-02 20:38:56 - Max ld across effect groups: 1.0.
-2024-10-02 20:38:56 - Min ld within effect groups: 1.0.
-2024-10-02 20:38:56 - vare = 0
-2024-10-02 20:38:56 - Iteration-->0 . Diff_b: 111.4 . Diff_s: 1.3 . Diff_mu: 156.5 . ALL: 269.2
-2024-10-02 20:38:56 - Iteration-->1 . Diff_b: 0.0 . Diff_s: 0.9 . Diff_mu: 98.0 . ALL: 98.9
-2024-10-02 20:38:56 - Iteration-->2 . Diff_b: 0.0 . Diff_s: 0.7 . Diff_mu: 49.5 . ALL: 50.2
-2024-10-02 20:38:56 - Iteration-->3 . Diff_b: 0.0 . Diff_s: 0.8 . Diff_mu: 58.0 . ALL: 58.8
-2024-10-02 20:38:56 - Iteration-->4 . Diff_b: 0.0 . Diff_s: 0.7 . Diff_mu: 72.3 . ALL: 73.0
-2024-10-02 20:38:56 - Iteration-->5 . Diff_b: 0.0 . Diff_s: 0.4 . Diff_mu: 74.8 . ALL: 75.2
-2024-10-02 20:38:56 - Iteration-->6 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 72.5 . ALL: 72.6
-2024-10-02 20:38:56 - Iteration-->7 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 65.9 . ALL: 66.1
-2024-10-02 20:38:56 - Iteration-->8 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 63.7 . ALL: 63.8
-2024-10-02 20:38:56 - Iteration-->9 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 61.6 . ALL: 61.7
-2024-10-02 20:38:56 - Iteration-->10 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 59.5 . ALL: 59.6
-2024-10-02 20:38:56 - Iteration-->11 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 57.5 . ALL: 57.6
-2024-10-02 20:38:56 - Iteration-->12 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 55.6 . ALL: 55.7
-2024-10-02 20:38:56 - Iteration-->13 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 53.8 . ALL: 54.0
-2024-10-02 20:38:56 - Iteration-->14 . Diff_b: 0.0 . Diff_s: 0.3 . Diff_mu: 52.5 . ALL: 52.8
-2024-10-02 20:38:56 - Iteration-->15 . Diff_b: 0.0 . Diff_s: 0.4 . Diff_mu: 51.9 . ALL: 52.3
-2024-10-02 20:38:56 - Iteration-->16 . Diff_b: 0.0 . Diff_s: 0.2 . Diff_mu: 51.1 . ALL: 51.2
-2024-10-02 20:38:56 - Iteration-->17 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 49.5 . ALL: 49.5
-2024-10-02 20:38:56 - Iteration-->18 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 48.1 . ALL: 48.2
-2024-10-02 20:38:56 - Iteration-->19 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 46.8 . ALL: 46.8
-2024-10-02 20:38:56 - Iteration-->20 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 45.5 . ALL: 45.5
-2024-10-02 20:38:56 - Iteration-->21 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 44.2 . ALL: 44.2
-2024-10-02 20:38:56 - Iteration-->22 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 43.0 . ALL: 43.0
-2024-10-02 20:38:56 - Iteration-->23 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 41.8 . ALL: 41.8
-2024-10-02 20:38:56 - Iteration-->24 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 40.6 . ALL: 40.6
-2024-10-02 20:38:56 - Iteration-->25 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 39.5 . ALL: 39.5
-2024-10-02 20:38:56 - Iteration-->26 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 38.3 . ALL: 38.4
-2024-10-02 20:38:56 - Iteration-->27 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 37.3 . ALL: 37.3
-2024-10-02 20:38:56 - Iteration-->28 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 36.2 . ALL: 36.2
-2024-10-02 20:38:56 - Iteration-->29 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 35.2 . ALL: 35.2
-2024-10-02 20:38:56 - Iteration-->30 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 34.2 . ALL: 34.2
-2024-10-02 20:38:56 - Iteration-->31 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 33.3 . ALL: 33.3
-2024-10-02 20:38:56 - Iteration-->32 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 32.3 . ALL: 32.3
-2024-10-02 20:38:56 - Iteration-->33 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 31.4 . ALL: 31.4
-2024-10-02 20:38:56 - Iteration-->34 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 30.5 . ALL: 30.6
-2024-10-02 20:38:56 - Iteration-->35 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 29.7 . ALL: 29.7
-2024-10-02 20:38:56 - Iteration-->36 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 28.8 . ALL: 28.9
-2024-10-02 20:38:56 - Iteration-->37 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 28.0 . ALL: 28.1
-2024-10-02 20:38:56 - Iteration-->38 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 27.3 . ALL: 27.3
-2024-10-02 20:38:56 - Iteration-->39 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 26.5 . ALL: 26.5
-2024-10-02 20:38:56 - Iteration-->40 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 25.8 . ALL: 25.8
-2024-10-02 20:38:56 - Iteration-->41 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 25.0 . ALL: 25.1
-2024-10-02 20:38:56 - Iteration-->42 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 24.3 . ALL: 24.4
-2024-10-02 20:38:56 - Iteration-->43 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 23.7 . ALL: 23.7
-2024-10-02 20:38:56 - Iteration-->44 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 23.0 . ALL: 23.0
-2024-10-02 20:38:56 - Iteration-->45 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 22.4 . ALL: 22.4
-2024-10-02 20:38:56 - Iteration-->46 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 21.8 . ALL: 21.8
-2024-10-02 20:38:56 - Iteration-->47 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 21.2 . ALL: 21.2
-2024-10-02 20:38:56 - Iteration-->48 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 20.7 . ALL: 20.7
-2024-10-02 20:38:56 - Iteration-->49 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 20.2 . ALL: 20.2
-2024-10-02 20:38:56 - Iteration-->50 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 19.7 . ALL: 19.8
-2024-10-02 20:38:56 - Iteration-->51 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 19.5 . ALL: 19.5
-2024-10-02 20:38:57 - Iteration-->52 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 19.4 . ALL: 19.5
-2024-10-02 20:38:57 - Iteration-->53 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 19.8 . ALL: 19.9
-2024-10-02 20:38:57 - Iteration-->54 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 21.0 . ALL: 21.1
-2024-10-02 20:38:57 - Iteration-->55 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 23.5 . ALL: 23.7
-2024-10-02 20:38:57 - Iteration-->56 . Diff_b: 0.0 . Diff_s: 0.2 . Diff_mu: 27.5 . ALL: 27.7
-2024-10-02 20:38:57 - Iteration-->57 . Diff_b: 0.0 . Diff_s: 0.2 . Diff_mu: 30.9 . ALL: 31.2
-2024-10-02 20:38:57 - Iteration-->58 . Diff_b: 0.0 . Diff_s: 0.2 . Diff_mu: 28.5 . ALL: 28.8
-2024-10-02 20:38:57 - Iteration-->59 . Diff_b: 0.0 . Diff_s: 0.2 . Diff_mu: 22.2 . ALL: 22.3
-2024-10-02 20:38:57 - Iteration-->60 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 18.7 . ALL: 18.8
-2024-10-02 20:38:57 - Iteration-->61 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 17.5 . ALL: 17.6
-2024-10-02 20:38:57 - Iteration-->62 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 16.9 . ALL: 17.0
-2024-10-02 20:38:57 - Iteration-->63 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 16.5 . ALL: 16.5
-2024-10-02 20:38:57 - Iteration-->64 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 16.0 . ALL: 16.1
-2024-10-02 20:38:57 - Iteration-->65 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 15.6 . ALL: 15.7
-2024-10-02 20:38:57 - Iteration-->66 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 15.2 . ALL: 15.2
-2024-10-02 20:38:57 - Iteration-->67 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 14.8 . ALL: 14.8
-2024-10-02 20:38:57 - Iteration-->68 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 14.4 . ALL: 14.5
-2024-10-02 20:38:57 - Iteration-->69 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 14.0 . ALL: 14.1
-2024-10-02 20:38:57 - Iteration-->70 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 13.7 . ALL: 13.7
-2024-10-02 20:38:57 - Iteration-->71 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 13.3 . ALL: 13.3
-2024-10-02 20:38:57 - Iteration-->72 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 13.0 . ALL: 13.0
-2024-10-02 20:38:57 - Iteration-->73 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 12.6 . ALL: 12.6
-2024-10-02 20:38:57 - Iteration-->74 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 12.3 . ALL: 12.3
-2024-10-02 20:38:57 - Iteration-->75 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 12.0 . ALL: 12.0
-2024-10-02 20:38:57 - Iteration-->76 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 11.7 . ALL: 11.7
-2024-10-02 20:38:57 - Iteration-->77 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 11.4 . ALL: 11.4
-2024-10-02 20:38:57 - Iteration-->78 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 11.1 . ALL: 11.1
-2024-10-02 20:38:57 - Iteration-->79 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 10.8 . ALL: 10.8
-2024-10-02 20:38:57 - Iteration-->80 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 10.5 . ALL: 10.5
-2024-10-02 20:38:57 - Iteration-->81 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 10.3 . ALL: 10.3
-2024-10-02 20:38:57 - Iteration-->82 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 10.0 . ALL: 10.0
-2024-10-02 20:38:57 - Iteration-->83 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 9.8 . ALL: 9.8
-2024-10-02 20:38:57 - Iteration-->84 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 9.6 . ALL: 9.6
-2024-10-02 20:38:57 - Iteration-->85 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 9.3 . ALL: 9.4
-2024-10-02 20:38:57 - Iteration-->86 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 9.2 . ALL: 9.2
-2024-10-02 20:38:57 - Iteration-->87 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 9.0 . ALL: 9.0
-2024-10-02 20:38:57 - Iteration-->88 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 8.8 . ALL: 8.8
-2024-10-02 20:38:57 - Iteration-->89 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 8.6 . ALL: 8.7
-2024-10-02 20:38:57 - Iteration-->90 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 8.5 . ALL: 8.5
-2024-10-02 20:38:57 - Iteration-->91 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 8.3 . ALL: 8.4
-2024-10-02 20:38:57 - Iteration-->92 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 8.2 . ALL: 8.2
-2024-10-02 20:38:57 - Iteration-->93 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 8.1 . ALL: 8.1
-2024-10-02 20:38:57 - Iteration-->94 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 7.9 . ALL: 8.0
-2024-10-02 20:38:57 - Iteration-->95 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 7.8 . ALL: 7.8
-2024-10-02 20:38:57 - Iteration-->96 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 7.7 . ALL: 7.7
-2024-10-02 20:38:57 - Iteration-->97 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 7.6 . ALL: 7.6
-2024-10-02 20:38:57 - Iteration-->98 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 7.4 . ALL: 7.5
-2024-10-02 20:38:57 - Iteration-->99 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 7.3 . ALL: 7.3
-2024-10-02 20:38:57 - The RSparsePro algorithm didn't converge.
-2024-10-02 20:38:57 - Attainable coverage for effect groups: [1.   1.   1.   1.   1.   0.57 1.   1.   0.   0.  ]
-2024-10-02 20:38:57 - Max ld across effect groups: 0.992.
-2024-10-02 20:38:57 - Min ld within effect groups: 0.416.
-2024-10-02 20:38:57 - vare = 0.001
-2024-10-02 20:38:58 - Iteration-->0 . Diff_b: 124.8 . Diff_s: 3.0 . Diff_mu: 306.8 . ALL: 434.6
-2024-10-02 20:38:58 - Iteration-->1 . Diff_b: 1.3 . Diff_s: 1.0 . Diff_mu: 340.5 . ALL: 342.8
-2024-10-02 20:38:58 - Iteration-->2 . Diff_b: 1.1 . Diff_s: 0.7 . Diff_mu: 284.7 . ALL: 286.5
-2024-10-02 20:38:58 - Iteration-->3 . Diff_b: 0.9 . Diff_s: 1.5 . Diff_mu: 284.8 . ALL: 287.3
-2024-10-02 20:38:58 - Iteration-->4 . Diff_b: 0.7 . Diff_s: 0.1 . Diff_mu: 260.0 . ALL: 260.8
-2024-10-02 20:38:58 - Iteration-->5 . Diff_b: 0.8 . Diff_s: 0.0 . Diff_mu: 179.7 . ALL: 180.5
-2024-10-02 20:38:58 - Iteration-->6 . Diff_b: 0.7 . Diff_s: 2.0 . Diff_mu: 262.6 . ALL: 265.3
-2024-10-02 20:38:58 - Iteration-->7 . Diff_b: 0.2 . Diff_s: 0.1 . Diff_mu: 293.6 . ALL: 293.9
-2024-10-02 20:38:58 - Iteration-->8 . Diff_b: 0.8 . Diff_s: 0.2 . Diff_mu: 194.2 . ALL: 195.2
-2024-10-02 20:38:58 - Iteration-->9 . Diff_b: 0.7 . Diff_s: 0.4 . Diff_mu: 191.3 . ALL: 192.5
-2024-10-02 20:38:58 - Iteration-->10 . Diff_b: 0.7 . Diff_s: 0.4 . Diff_mu: 189.7 . ALL: 190.8
-2024-10-02 20:38:58 - Iteration-->11 . Diff_b: 0.7 . Diff_s: 0.1 . Diff_mu: 188.4 . ALL: 189.2
-2024-10-02 20:38:58 - Iteration-->12 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 187.1 . ALL: 187.8
-2024-10-02 20:38:58 - Iteration-->13 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 186.0 . ALL: 186.7
-2024-10-02 20:38:58 - Iteration-->14 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 185.0 . ALL: 185.7
-2024-10-02 20:38:58 - Iteration-->15 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 184.1 . ALL: 184.8
-2024-10-02 20:38:58 - Iteration-->16 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 183.4 . ALL: 184.0
-2024-10-02 20:38:58 - Iteration-->17 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 182.7 . ALL: 183.3
-2024-10-02 20:38:58 - Iteration-->18 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 182.1 . ALL: 182.7
-2024-10-02 20:38:58 - Iteration-->19 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 181.5 . ALL: 182.1
-2024-10-02 20:38:58 - Iteration-->20 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 181.0 . ALL: 181.6
-2024-10-02 20:38:58 - Iteration-->21 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.4 . ALL: 181.1
-2024-10-02 20:38:58 - Iteration-->22 . Diff_b: 0.6 . Diff_s: 0.1 . Diff_mu: 179.8 . ALL: 180.4
-2024-10-02 20:38:58 - Iteration-->23 . Diff_b: 0.6 . Diff_s: 0.4 . Diff_mu: 181.3 . ALL: 182.3
-2024-10-02 20:38:58 - Iteration-->24 . Diff_b: 0.6 . Diff_s: 0.8 . Diff_mu: 190.9 . ALL: 192.3
-2024-10-02 20:38:58 - Iteration-->25 . Diff_b: 0.6 . Diff_s: 0.1 . Diff_mu: 178.8 . ALL: 179.4
-2024-10-02 20:38:58 - Iteration-->26 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 178.7 . ALL: 179.3
-2024-10-02 20:38:58 - Iteration-->27 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 179.0 . ALL: 179.6
-2024-10-02 20:38:58 - Iteration-->28 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 179.3 . ALL: 179.9
-2024-10-02 20:38:58 - Iteration-->29 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 179.6 . ALL: 180.1
-2024-10-02 20:38:58 - Iteration-->30 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 179.7 . ALL: 180.3
-2024-10-02 20:38:58 - Iteration-->31 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 179.9 . ALL: 180.5
-2024-10-02 20:38:58 - Iteration-->32 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.0 . ALL: 180.6
-2024-10-02 20:38:58 - Iteration-->33 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.1 . ALL: 180.7
-2024-10-02 20:38:58 - Iteration-->34 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.1 . ALL: 180.7
-2024-10-02 20:38:58 - Iteration-->35 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.7
-2024-10-02 20:38:58 - Iteration-->36 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
-2024-10-02 20:38:58 - Iteration-->37 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
-2024-10-02 20:38:58 - Iteration-->38 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
-2024-10-02 20:38:58 - Iteration-->39 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
-2024-10-02 20:38:58 - Iteration-->40 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
-2024-10-02 20:38:58 - Iteration-->41 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
-2024-10-02 20:38:58 - Iteration-->42 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
-2024-10-02 20:38:58 - Iteration-->43 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
-2024-10-02 20:38:58 - Iteration-->44 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
-2024-10-02 20:38:58 - Iteration-->45 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
-2024-10-02 20:38:58 - Iteration-->46 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
-2024-10-02 20:38:58 - Iteration-->47 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.3 . ALL: 180.8
-2024-10-02 20:38:58 - Iteration-->48 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.3 . ALL: 180.9
-2024-10-02 20:38:58 - Iteration-->49 . Diff_b: 0.5 . Diff_s: 0.0 . Diff_mu: 180.3 . ALL: 180.9
-2024-10-02 20:38:59 - Iteration-->50 . Diff_b: 0.5 . Diff_s: 0.0 . Diff_mu: 180.4 . ALL: 180.9
-2024-10-02 20:38:59 - Iteration-->51 . Diff_b: 0.5 . Diff_s: 0.0 . Diff_mu: 180.5 . ALL: 181.0
-2024-10-02 20:38:59 - Iteration-->52 . Diff_b: 0.5 . Diff_s: 0.0 . Diff_mu: 180.5 . ALL: 181.1
-2024-10-02 20:38:59 - Iteration-->53 . Diff_b: 0.5 . Diff_s: 0.0 . Diff_mu: 180.6 . ALL: 181.1
-2024-10-02 20:38:59 - Iteration-->54 . Diff_b: 0.5 . Diff_s: 0.0 . Diff_mu: 180.7 . ALL: 181.2
-2024-10-02 20:38:59 - Iteration-->55 . Diff_b: 0.5 . Diff_s: 0.1 . Diff_mu: 182.5 . ALL: 183.2
-2024-10-02 20:38:59 - Iteration-->56 . Diff_b: 0.5 . Diff_s: 0.9 . Diff_mu: 331.4 . ALL: 332.9
-2024-10-02 20:38:59 - Iteration-->57 . Diff_b: 0.4 . Diff_s: 1.0 . Diff_mu: 423.5 . ALL: 425.0
-2024-10-02 20:38:59 - Iteration-->58 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 308.6 . ALL: 309.4
-2024-10-02 20:38:59 - Iteration-->59 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 240.2 . ALL: 240.9
-2024-10-02 20:38:59 - Iteration-->60 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 235.8 . ALL: 236.6
-2024-10-02 20:38:59 - Iteration-->61 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 232.6 . ALL: 233.3
-2024-10-02 20:38:59 - Iteration-->62 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 230.0 . ALL: 230.7
-2024-10-02 20:38:59 - Iteration-->63 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 227.8 . ALL: 228.6
-2024-10-02 20:38:59 - Iteration-->64 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 226.1 . ALL: 226.8
-2024-10-02 20:38:59 - Iteration-->65 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 224.7 . ALL: 225.4
-2024-10-02 20:38:59 - Iteration-->66 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 223.6 . ALL: 224.3
-2024-10-02 20:38:59 - Iteration-->67 . Diff_b: 0.8 . Diff_s: 0.0 . Diff_mu: 222.7 . ALL: 223.4
-2024-10-02 20:38:59 - Iteration-->68 . Diff_b: 0.8 . Diff_s: 0.0 . Diff_mu: 222.0 . ALL: 222.7
-2024-10-02 20:38:59 - Iteration-->69 . Diff_b: 0.8 . Diff_s: 0.0 . Diff_mu: 221.4 . ALL: 222.2
-2024-10-02 20:38:59 - Iteration-->70 . Diff_b: 0.8 . Diff_s: 0.0 . Diff_mu: 221.0 . ALL: 221.8
-2024-10-02 20:38:59 - Iteration-->71 . Diff_b: 0.8 . Diff_s: 0.0 . Diff_mu: 220.7 . ALL: 221.5
-2024-10-02 20:38:59 - Iteration-->72 . Diff_b: 0.8 . Diff_s: 0.0 . Diff_mu: 220.5 . ALL: 221.3
-2024-10-02 20:38:59 - Iteration-->73 . Diff_b: 0.8 . Diff_s: 0.0 . Diff_mu: 220.4 . ALL: 221.2
-2024-10-02 20:38:59 - Iteration-->74 . Diff_b: 0.8 . Diff_s: 0.2 . Diff_mu: 222.5 . ALL: 223.4
-2024-10-02 20:38:59 - Iteration-->75 . Diff_b: 0.7 . Diff_s: 1.7 . Diff_mu: 430.7 . ALL: 433.0
-2024-10-02 20:38:59 - Iteration-->76 . Diff_b: 4.1 . Diff_s: 1.4 . Diff_mu: 402.6 . ALL: 408.1
-2024-10-02 20:38:59 - Iteration-->77 . Diff_b: 1.3 . Diff_s: 0.0 . Diff_mu: 284.7 . ALL: 286.0
-2024-10-02 20:38:59 - Iteration-->78 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 283.2 . ALL: 284.1
-2024-10-02 20:38:59 - Iteration-->79 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 282.6 . ALL: 283.5
-2024-10-02 20:38:59 - Iteration-->80 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 282.5 . ALL: 283.4
-2024-10-02 20:38:59 - Iteration-->81 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 282.8 . ALL: 283.6
-2024-10-02 20:38:59 - Iteration-->82 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 283.3 . ALL: 284.2
-2024-10-02 20:38:59 - Iteration-->83 . Diff_b: 0.9 . Diff_s: 1.3 . Diff_mu: 347.4 . ALL: 349.6
-2024-10-02 20:38:59 - Iteration-->84 . Diff_b: 0.7 . Diff_s: 0.1 . Diff_mu: 298.4 . ALL: 299.1
-2024-10-02 20:38:59 - Iteration-->85 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 297.9 . ALL: 298.8
-2024-10-02 20:38:59 - Iteration-->86 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 299.2 . ALL: 300.1
-2024-10-02 20:38:59 - Iteration-->87 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 300.5 . ALL: 301.4
-2024-10-02 20:38:59 - Iteration-->88 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 301.9 . ALL: 302.8
-2024-10-02 20:38:59 - Iteration-->89 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 303.4 . ALL: 304.3
-2024-10-02 20:38:59 - Iteration-->90 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 305.0 . ALL: 305.9
-2024-10-02 20:38:59 - Iteration-->91 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 306.6 . ALL: 307.6
-2024-10-02 20:38:59 - Iteration-->92 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 308.3 . ALL: 309.3
-2024-10-02 20:38:59 - Iteration-->93 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 310.1 . ALL: 311.0
-2024-10-02 20:38:59 - Iteration-->94 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 311.9 . ALL: 312.9
-2024-10-02 20:38:59 - Iteration-->95 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 313.8 . ALL: 314.7
-2024-10-02 20:38:59 - Iteration-->96 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 315.7 . ALL: 316.7
-2024-10-02 20:38:59 - Iteration-->97 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 317.7 . ALL: 318.6
-2024-10-02 20:38:59 - Iteration-->98 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 319.7 . ALL: 320.6
-2024-10-02 20:38:59 - Iteration-->99 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 321.8 . ALL: 322.7
-2024-10-02 20:38:59 - The RSparsePro algorithm didn't converge.
-2024-10-02 20:38:59 - Attainable coverage for effect groups: [1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
-2024-10-02 20:38:59 - Max ld across effect groups: 0.997.
-2024-10-02 20:38:59 - Min ld within effect groups: 1.0.
-2024-10-02 20:38:59 - vare = 0.0015
-2024-10-02 20:39:00 - Iteration-->0 . Diff_b: 235.7 . Diff_s: 3.2 . Diff_mu: 854.1 . ALL: 1092.9
-2024-10-02 20:39:00 - Iteration-->1 . Diff_b: 22.4 . Diff_s: 1.4 . Diff_mu: 853.0 . ALL: 876.8
-2024-10-02 20:39:00 - Iteration-->2 . Diff_b: 16.1 . Diff_s: 0.0 . Diff_mu: 707.3 . ALL: 723.4
-2024-10-02 20:39:00 - Iteration-->3 . Diff_b: 15.4 . Diff_s: 0.0 . Diff_mu: 618.9 . ALL: 634.3
-2024-10-02 20:39:00 - Iteration-->4 . Diff_b: 13.0 . Diff_s: 1.4 . Diff_mu: 590.7 . ALL: 605.1
-2024-10-02 20:39:00 - Iteration-->5 . Diff_b: 7.0 . Diff_s: 0.0 . Diff_mu: 469.2 . ALL: 476.2
-2024-10-02 20:39:00 - Iteration-->6 . Diff_b: 10.0 . Diff_s: 0.0 . Diff_mu: 431.1 . ALL: 441.1
-2024-10-02 20:39:00 - Iteration-->7 . Diff_b: 8.8 . Diff_s: 0.0 . Diff_mu: 376.2 . ALL: 385.0
-2024-10-02 20:39:00 - Iteration-->8 . Diff_b: 7.7 . Diff_s: 0.0 . Diff_mu: 328.3 . ALL: 336.0
-2024-10-02 20:39:00 - Iteration-->9 . Diff_b: 6.7 . Diff_s: 1.2 . Diff_mu: 288.3 . ALL: 296.2
-2024-10-02 20:39:00 - Iteration-->10 . Diff_b: 11.1 . Diff_s: 1.2 . Diff_mu: 327.1 . ALL: 339.5
-2024-10-02 20:39:00 - Iteration-->11 . Diff_b: 24.7 . Diff_s: 1.2 . Diff_mu: 327.9 . ALL: 353.8
-2024-10-02 20:39:00 - Iteration-->12 . Diff_b: 13.6 . Diff_s: 0.0 . Diff_mu: 287.0 . ALL: 300.6
-2024-10-02 20:39:00 - Iteration-->13 . Diff_b: 5.8 . Diff_s: 0.0 . Diff_mu: 299.5 . ALL: 305.4
-2024-10-02 20:39:00 - Iteration-->14 . Diff_b: 5.3 . Diff_s: 0.0 . Diff_mu: 276.3 . ALL: 281.5
-2024-10-02 20:39:00 - Iteration-->15 . Diff_b: 4.8 . Diff_s: 1.2 . Diff_mu: 303.7 . ALL: 309.7
-2024-10-02 20:39:00 - Iteration-->16 . Diff_b: 16.9 . Diff_s: 1.2 . Diff_mu: 341.4 . ALL: 359.5
-2024-10-02 20:39:00 - Iteration-->17 . Diff_b: 28.7 . Diff_s: 1.2 . Diff_mu: 328.0 . ALL: 358.0
-2024-10-02 20:39:00 - Iteration-->18 . Diff_b: 20.4 . Diff_s: 0.0 . Diff_mu: 292.0 . ALL: 312.4
-2024-10-02 20:39:00 - Iteration-->19 . Diff_b: 5.2 . Diff_s: 0.0 . Diff_mu: 315.9 . ALL: 321.0
-2024-10-02 20:39:00 - Iteration-->20 . Diff_b: 4.8 . Diff_s: 0.0 . Diff_mu: 300.8 . ALL: 305.6
-2024-10-02 20:39:00 - Iteration-->21 . Diff_b: 4.5 . Diff_s: 0.0 . Diff_mu: 287.3 . ALL: 291.9
-2024-10-02 20:39:00 - Iteration-->22 . Diff_b: 4.2 . Diff_s: 0.0 . Diff_mu: 275.3 . ALL: 279.5
-2024-10-02 20:39:00 - Iteration-->23 . Diff_b: 4.0 . Diff_s: 0.0 . Diff_mu: 264.5 . ALL: 268.5
-2024-10-02 20:39:00 - Iteration-->24 . Diff_b: 3.7 . Diff_s: 0.0 . Diff_mu: 255.0 . ALL: 258.7
-2024-10-02 20:39:00 - Iteration-->25 . Diff_b: 3.5 . Diff_s: 0.0 . Diff_mu: 246.5 . ALL: 250.0
-2024-10-02 20:39:00 - Iteration-->26 . Diff_b: 3.3 . Diff_s: 1.1 . Diff_mu: 246.3 . ALL: 250.7
-2024-10-02 20:39:00 - Iteration-->27 . Diff_b: 25.8 . Diff_s: 1.2 . Diff_mu: 307.6 . ALL: 334.7
-2024-10-02 20:39:00 - Iteration-->28 . Diff_b: 34.9 . Diff_s: 1.2 . Diff_mu: 373.8 . ALL: 410.0
-2024-10-02 20:39:00 - Iteration-->29 . Diff_b: 31.6 . Diff_s: 1.2 . Diff_mu: 365.0 . ALL: 397.8
-2024-10-02 20:39:00 - Iteration-->30 . Diff_b: 39.6 . Diff_s: 1.2 . Diff_mu: 369.7 . ALL: 410.5
-2024-10-02 20:39:00 - Iteration-->31 . Diff_b: 33.5 . Diff_s: 1.3 . Diff_mu: 348.7 . ALL: 383.4
-2024-10-02 20:39:00 - Iteration-->32 . Diff_b: 32.2 . Diff_s: 1.3 . Diff_mu: 375.5 . ALL: 408.9
-2024-10-02 20:39:00 - Iteration-->33 . Diff_b: 26.0 . Diff_s: 0.0 . Diff_mu: 281.1 . ALL: 307.1
-2024-10-02 20:39:00 - Iteration-->34 . Diff_b: 4.1 . Diff_s: 0.0 . Diff_mu: 304.3 . ALL: 308.4
-2024-10-02 20:39:00 - Iteration-->35 . Diff_b: 3.9 . Diff_s: 0.0 . Diff_mu: 296.4 . ALL: 300.3
-2024-10-02 20:39:00 - Iteration-->36 . Diff_b: 3.8 . Diff_s: 0.0 . Diff_mu: 289.0 . ALL: 292.8
-2024-10-02 20:39:00 - Iteration-->37 . Diff_b: 3.6 . Diff_s: 0.0 . Diff_mu: 282.2 . ALL: 285.8
-2024-10-02 20:39:00 - Iteration-->38 . Diff_b: 3.5 . Diff_s: 0.0 . Diff_mu: 275.8 . ALL: 279.4
-2024-10-02 20:39:00 - Iteration-->39 . Diff_b: 3.4 . Diff_s: 0.0 . Diff_mu: 269.9 . ALL: 273.3
-2024-10-02 20:39:01 - Iteration-->40 . Diff_b: 3.3 . Diff_s: 0.0 . Diff_mu: 264.5 . ALL: 267.7
-2024-10-02 20:39:01 - Iteration-->41 . Diff_b: 3.2 . Diff_s: 0.0 . Diff_mu: 259.4 . ALL: 262.5
-2024-10-02 20:39:01 - Iteration-->42 . Diff_b: 3.0 . Diff_s: 0.0 . Diff_mu: 254.6 . ALL: 257.7
-2024-10-02 20:39:01 - Iteration-->43 . Diff_b: 2.9 . Diff_s: 0.0 . Diff_mu: 250.2 . ALL: 253.2
-2024-10-02 20:39:01 - Iteration-->44 . Diff_b: 2.8 . Diff_s: 0.0 . Diff_mu: 246.1 . ALL: 249.0
-2024-10-02 20:39:01 - Iteration-->45 . Diff_b: 2.8 . Diff_s: 0.0 . Diff_mu: 242.3 . ALL: 245.1
-2024-10-02 20:39:01 - Iteration-->46 . Diff_b: 2.7 . Diff_s: 0.0 . Diff_mu: 238.8 . ALL: 241.4
-2024-10-02 20:39:01 - Iteration-->47 . Diff_b: 2.6 . Diff_s: 0.0 . Diff_mu: 235.5 . ALL: 238.1
-2024-10-02 20:39:01 - Iteration-->48 . Diff_b: 2.5 . Diff_s: 0.0 . Diff_mu: 232.4 . ALL: 234.9
-2024-10-02 20:39:01 - Iteration-->49 . Diff_b: 2.4 . Diff_s: 0.0 . Diff_mu: 229.5 . ALL: 232.0
-2024-10-02 20:39:01 - Iteration-->50 . Diff_b: 2.4 . Diff_s: 0.0 . Diff_mu: 226.9 . ALL: 229.2
-2024-10-02 20:39:01 - Iteration-->51 . Diff_b: 2.3 . Diff_s: 0.0 . Diff_mu: 224.4 . ALL: 226.7
-2024-10-02 20:39:01 - Iteration-->52 . Diff_b: 2.2 . Diff_s: 0.0 . Diff_mu: 222.0 . ALL: 224.3
-2024-10-02 20:39:01 - Iteration-->53 . Diff_b: 2.2 . Diff_s: 0.0 . Diff_mu: 219.8 . ALL: 222.0
-2024-10-02 20:39:01 - Iteration-->54 . Diff_b: 2.1 . Diff_s: 0.0 . Diff_mu: 217.8 . ALL: 219.9
-2024-10-02 20:39:01 - Iteration-->55 . Diff_b: 2.1 . Diff_s: 0.0 . Diff_mu: 215.8 . ALL: 217.9
-2024-10-02 20:39:01 - Iteration-->56 . Diff_b: 2.0 . Diff_s: 0.0 . Diff_mu: 214.0 . ALL: 216.0
-2024-10-02 20:39:01 - Iteration-->57 . Diff_b: 2.0 . Diff_s: 0.0 . Diff_mu: 212.3 . ALL: 214.2
-2024-10-02 20:39:01 - Iteration-->58 . Diff_b: 1.9 . Diff_s: 0.0 . Diff_mu: 210.6 . ALL: 212.6
-2024-10-02 20:39:01 - Iteration-->59 . Diff_b: 1.9 . Diff_s: 0.0 . Diff_mu: 209.1 . ALL: 211.0
-2024-10-02 20:39:01 - Iteration-->60 . Diff_b: 1.8 . Diff_s: 0.0 . Diff_mu: 207.6 . ALL: 209.4
-2024-10-02 20:39:01 - Iteration-->61 . Diff_b: 1.8 . Diff_s: 0.0 . Diff_mu: 206.2 . ALL: 208.0
-2024-10-02 20:39:01 - Iteration-->62 . Diff_b: 1.7 . Diff_s: 0.0 . Diff_mu: 204.9 . ALL: 206.6
-2024-10-02 20:39:01 - Iteration-->63 . Diff_b: 1.7 . Diff_s: 0.0 . Diff_mu: 203.6 . ALL: 205.3
-2024-10-02 20:39:01 - Iteration-->64 . Diff_b: 1.6 . Diff_s: 1.2 . Diff_mu: 304.4 . ALL: 307.2
-2024-10-02 20:39:01 - Iteration-->65 . Diff_b: 58.3 . Diff_s: 1.5 . Diff_mu: 475.6 . ALL: 535.4
-2024-10-02 20:39:01 - Iteration-->66 . Diff_b: 70.5 . Diff_s: 1.2 . Diff_mu: 497.7 . ALL: 569.3
-2024-10-02 20:39:01 - Iteration-->67 . Diff_b: 66.6 . Diff_s: 1.2 . Diff_mu: 474.5 . ALL: 542.3
-2024-10-02 20:39:01 - Iteration-->68 . Diff_b: 72.0 . Diff_s: 1.2 . Diff_mu: 482.7 . ALL: 555.8
-2024-10-02 20:39:01 - Iteration-->69 . Diff_b: 68.1 . Diff_s: 1.2 . Diff_mu: 478.9 . ALL: 548.1
-2024-10-02 20:39:01 - Iteration-->70 . Diff_b: 73.2 . Diff_s: 1.2 . Diff_mu: 487.1 . ALL: 561.5
-2024-10-02 20:39:01 - Iteration-->71 . Diff_b: 69.5 . Diff_s: 1.2 . Diff_mu: 483.3 . ALL: 553.9
-2024-10-02 20:39:01 - Iteration-->72 . Diff_b: 74.4 . Diff_s: 1.2 . Diff_mu: 491.6 . ALL: 567.1
-2024-10-02 20:39:01 - Iteration-->73 . Diff_b: 70.8 . Diff_s: 1.2 . Diff_mu: 487.7 . ALL: 559.7
-2024-10-02 20:39:01 - Iteration-->74 . Diff_b: 75.5 . Diff_s: 1.2 . Diff_mu: 496.0 . ALL: 572.7
-2024-10-02 20:39:01 - Iteration-->75 . Diff_b: 72.1 . Diff_s: 1.2 . Diff_mu: 492.1 . ALL: 565.4
-2024-10-02 20:39:01 - Iteration-->76 . Diff_b: 76.6 . Diff_s: 1.2 . Diff_mu: 500.5 . ALL: 578.3
-2024-10-02 20:39:01 - Iteration-->77 . Diff_b: 73.3 . Diff_s: 1.2 . Diff_mu: 496.5 . ALL: 571.0
-2024-10-02 20:39:01 - Iteration-->78 . Diff_b: 77.7 . Diff_s: 1.7 . Diff_mu: 565.5 . ALL: 644.9
-2024-10-02 20:39:01 - Iteration-->79 . Diff_b: 140.2 . Diff_s: 2.0 . Diff_mu: 845.9 . ALL: 988.1
-2024-10-02 20:39:01 - Iteration-->80 . Diff_b: 148.5 . Diff_s: 1.7 . Diff_mu: 880.1 . ALL: 1030.4
-2024-10-02 20:39:01 - Iteration-->81 . Diff_b: 145.9 . Diff_s: 1.7 . Diff_mu: 822.2 . ALL: 969.7
-2024-10-02 20:39:01 - Iteration-->82 . Diff_b: 152.6 . Diff_s: 1.7 . Diff_mu: 861.8 . ALL: 1016.1
-2024-10-02 20:39:01 - Iteration-->83 . Diff_b: 149.8 . Diff_s: 1.7 . Diff_mu: 840.0 . ALL: 991.5
-2024-10-02 20:39:01 - Iteration-->84 . Diff_b: 156.4 . Diff_s: 1.7 . Diff_mu: 878.8 . ALL: 1037.0
-2024-10-02 20:39:01 - Iteration-->85 . Diff_b: 153.7 . Diff_s: 1.7 . Diff_mu: 857.5 . ALL: 1012.9
-2024-10-02 20:39:01 - Iteration-->86 . Diff_b: 160.2 . Diff_s: 1.7 . Diff_mu: 895.6 . ALL: 1057.4
-2024-10-02 20:39:01 - Iteration-->87 . Diff_b: 157.5 . Diff_s: 1.7 . Diff_mu: 874.7 . ALL: 1033.8
-2024-10-02 20:39:01 - Iteration-->88 . Diff_b: 163.8 . Diff_s: 1.7 . Diff_mu: 911.9 . ALL: 1077.4
-2024-10-02 20:39:01 - Iteration-->89 . Diff_b: 161.1 . Diff_s: 1.7 . Diff_mu: 891.5 . ALL: 1054.3
-2024-10-02 20:39:01 - Iteration-->90 . Diff_b: 167.3 . Diff_s: 1.7 . Diff_mu: 927.9 . ALL: 1096.9
-2024-10-02 20:39:02 - Iteration-->91 . Diff_b: 164.7 . Diff_s: 1.7 . Diff_mu: 907.9 . ALL: 1074.3
-2024-10-02 20:39:02 - Iteration-->92 . Diff_b: 170.8 . Diff_s: 1.7 . Diff_mu: 943.6 . ALL: 1116.1
-2024-10-02 20:39:02 - Iteration-->93 . Diff_b: 168.1 . Diff_s: 1.7 . Diff_mu: 924.0 . ALL: 1093.9
-2024-10-02 20:39:02 - Iteration-->94 . Diff_b: 174.1 . Diff_s: 1.7 . Diff_mu: 959.0 . ALL: 1134.8
-2024-10-02 20:39:02 - Iteration-->95 . Diff_b: 171.5 . Diff_s: 1.7 . Diff_mu: 939.8 . ALL: 1113.0
-2024-10-02 20:39:02 - Iteration-->96 . Diff_b: 177.4 . Diff_s: 3.8 . Diff_mu: 1074.0 . ALL: 1255.2
-2024-10-02 20:39:02 - Iteration-->97 . Diff_b: 677.1 . Diff_s: 4.0 . Diff_mu: 2819.5 . ALL: 3500.6
-2024-10-02 20:39:02 - Iteration-->98 . Diff_b: 983.6 . Diff_s: 4.3 . Diff_mu: 4224.7 . ALL: 5212.6
-2024-10-02 20:39:02 - Iteration-->99 . Diff_b: 1119.7 . Diff_s: 4.3 . Diff_mu: 4909.1 . ALL: 6033.1
-2024-10-02 20:39:02 - The RSparsePro algorithm didn't converge.
-2024-10-02 20:39:02 - Attainable coverage for effect groups: [1. 1. 0. 0. 0. 0. 0. 1. 1. 0.]
-2024-10-02 20:39:02 - Max ld across effect groups: 0.996.
-2024-10-02 20:39:02 - Min ld within effect groups: 1.0.
-2024-10-02 20:39:02 - vare = 0.0023
-2024-10-02 20:39:02 - Iteration-->0 . Diff_b: 1215.3 . Diff_s: 3.2 . Diff_mu: 4997.5 . ALL: 6215.9
-2024-10-02 20:39:02 - Iteration-->1 . Diff_b: 1583.9 . Diff_s: 1.4 . Diff_mu: 10511.1 . ALL: 12096.5
-2024-10-02 20:39:02 - Iteration-->2 . Diff_b: 2959.5 . Diff_s: 0.0 . Diff_mu: 20828.7 . ALL: 23788.2
-2024-10-02 20:39:02 - Iteration-->3 . Diff_b: 6194.3 . Diff_s: 1.4 . Diff_mu: 42383.7 . ALL: 48579.3
-2024-10-02 20:39:02 - Iteration-->4 . Diff_b: 11145.0 . Diff_s: 0.0 . Diff_mu: 83869.5 . ALL: 95014.5
-2024-10-02 20:39:02 - Iteration-->5 . Diff_b: 23740.0 . Diff_s: 0.0 . Diff_mu: 170249.6 . ALL: 193989.6
-2024-10-02 20:39:02 - The RSparsePro algorithm didn't converge.
-2024-10-02 20:39:02 - Attainable coverage for effect groups: [1. 1. 0. 0. 1. 0. 0. 0. 1. 1.]
-2024-10-02 20:39:02 - Max ld across effect groups: 0.994.
-2024-10-02 20:39:02 - Min ld within effect groups: 1.0.
-2024-10-02 20:39:02 - vare = 0.0034
-2024-10-02 20:39:02 - Iteration-->0 . Diff_b: 133.5 . Diff_s: 2.9 . Diff_mu: 377.2 . ALL: 513.6
-2024-10-02 20:39:02 - Iteration-->1 . Diff_b: 15.8 . Diff_s: 1.5 . Diff_mu: 472.3 . ALL: 489.6
-2024-10-02 20:39:02 - Iteration-->2 . Diff_b: 13.7 . Diff_s: 2.0 . Diff_mu: 477.6 . ALL: 493.3
-2024-10-02 20:39:02 - Iteration-->3 . Diff_b: 21.6 . Diff_s: 0.0 . Diff_mu: 419.6 . ALL: 441.2
-2024-10-02 20:39:02 - Iteration-->4 . Diff_b: 22.0 . Diff_s: 2.8 . Diff_mu: 454.6 . ALL: 479.4
-2024-10-02 20:39:02 - Iteration-->5 . Diff_b: 51.2 . Diff_s: 2.0 . Diff_mu: 619.7 . ALL: 672.9
-2024-10-02 20:39:02 - Iteration-->6 . Diff_b: 64.1 . Diff_s: 0.0 . Diff_mu: 895.4 . ALL: 959.5
-2024-10-02 20:39:02 - Iteration-->7 . Diff_b: 72.6 . Diff_s: 0.0 . Diff_mu: 1145.2 . ALL: 1217.8
-2024-10-02 20:39:02 - Iteration-->8 . Diff_b: 94.9 . Diff_s: 0.0 . Diff_mu: 1472.8 . ALL: 1567.7
-2024-10-02 20:39:02 - Iteration-->9 . Diff_b: 123.2 . Diff_s: 0.0 . Diff_mu: 1917.9 . ALL: 2041.1
-2024-10-02 20:39:02 - Iteration-->10 . Diff_b: 160.0 . Diff_s: 0.0 . Diff_mu: 2495.2 . ALL: 2655.2
-2024-10-02 20:39:02 - Iteration-->11 . Diff_b: 207.8 . Diff_s: 0.0 . Diff_mu: 3245.3 . ALL: 3453.0
-2024-10-02 20:39:02 - Iteration-->12 . Diff_b: 269.9 . Diff_s: 0.0 . Diff_mu: 4219.7 . ALL: 4489.6
-2024-10-02 20:39:03 - Iteration-->13 . Diff_b: 350.5 . Diff_s: 0.0 . Diff_mu: 5485.5 . ALL: 5836.1
-2024-10-02 20:39:03 - Iteration-->14 . Diff_b: 455.4 . Diff_s: 0.0 . Diff_mu: 7130.0 . ALL: 7585.3
-2024-10-02 20:39:03 - Iteration-->15 . Diff_b: 591.5 . Diff_s: 0.0 . Diff_mu: 9266.3 . ALL: 9857.8
-2024-10-02 20:39:03 - Iteration-->16 . Diff_b: 768.4 . Diff_s: 0.0 . Diff_mu: 12041.6 . ALL: 12810.1
-2024-10-02 20:39:03 - Iteration-->17 . Diff_b: 998.3 . Diff_s: 0.0 . Diff_mu: 15647.1 . ALL: 16645.4
-2024-10-02 20:39:03 - Iteration-->18 . Diff_b: 1296.8 . Diff_s: 0.0 . Diff_mu: 20331.1 . ALL: 21628.0
-2024-10-02 20:39:03 - Iteration-->19 . Diff_b: 1684.8 . Diff_s: 0.0 . Diff_mu: 26416.2 . ALL: 28101.0
-2024-10-02 20:39:03 - Iteration-->20 . Diff_b: 2188.7 . Diff_s: 0.0 . Diff_mu: 34321.7 . ALL: 36510.4
-2024-10-02 20:39:03 - Iteration-->21 . Diff_b: 2843.4 . Diff_s: 0.0 . Diff_mu: 44591.9 . ALL: 47435.4
-2024-10-02 20:39:03 - Iteration-->22 . Diff_b: 3694.0 . Diff_s: 0.0 . Diff_mu: 57934.5 . ALL: 61628.5
-2024-10-02 20:39:03 - Iteration-->23 . Diff_b: 4799.0 . Diff_s: 0.0 . Diff_mu: 75268.4 . ALL: 80067.5
-2024-10-02 20:39:03 - Iteration-->24 . Diff_b: 6234.6 . Diff_s: 0.0 . Diff_mu: 97787.8 . ALL: 104022.4
-2024-10-02 20:39:03 - The RSparsePro algorithm didn't converge.
-2024-10-02 20:39:03 - Attainable coverage for effect groups: [1. 1. 1. 1. 0. 0. 0. 1. 1. 1.]
-2024-10-02 20:39:03 - Max ld across effect groups: 0.897.
-2024-10-02 20:39:03 - Min ld within effect groups: 1.0.
-2024-10-02 20:39:03 - vare = 0.0051
-2024-10-02 20:39:03 - Iteration-->0 . Diff_b: 156.1 . Diff_s: 3.1 . Diff_mu: 522.7 . ALL: 681.9
-2024-10-02 20:39:03 - Iteration-->1 . Diff_b: 62.5 . Diff_s: 0.1 . Diff_mu: 569.2 . ALL: 631.8
-2024-10-02 20:39:03 - Iteration-->2 . Diff_b: 82.5 . Diff_s: 0.0 . Diff_mu: 717.9 . ALL: 800.4
-2024-10-02 20:39:03 - Iteration-->3 . Diff_b: 111.5 . Diff_s: 1.4 . Diff_mu: 1300.2 . ALL: 1413.1
-2024-10-02 20:39:03 - Iteration-->4 . Diff_b: 153.0 . Diff_s: 0.0 . Diff_mu: 1328.9 . ALL: 1481.9
-2024-10-02 20:39:03 - Iteration-->5 . Diff_b: 229.3 . Diff_s: 0.0 . Diff_mu: 1885.3 . ALL: 2114.5
-2024-10-02 20:39:03 - Iteration-->6 . Diff_b: 324.7 . Diff_s: 0.0 . Diff_mu: 2672.4 . ALL: 2997.1
-2024-10-02 20:39:03 - Iteration-->7 . Diff_b: 460.3 . Diff_s: 0.0 . Diff_mu: 3788.1 . ALL: 4248.4
-2024-10-02 20:39:03 - Iteration-->8 . Diff_b: 652.5 . Diff_s: 0.0 . Diff_mu: 5369.6 . ALL: 6022.1
-2024-10-02 20:39:03 - Iteration-->9 . Diff_b: 924.9 . Diff_s: 0.0 . Diff_mu: 7611.3 . ALL: 8536.2
-2024-10-02 20:39:03 - Iteration-->10 . Diff_b: 1311.0 . Diff_s: 0.0 . Diff_mu: 10788.9 . ALL: 12100.0
-2024-10-02 20:39:03 - Iteration-->11 . Diff_b: 1858.4 . Diff_s: 0.0 . Diff_mu: 15293.1 . ALL: 17151.5
-2024-10-02 20:39:03 - Iteration-->12 . Diff_b: 2634.2 . Diff_s: 0.0 . Diff_mu: 21677.8 . ALL: 24312.1
-2024-10-02 20:39:03 - Iteration-->13 . Diff_b: 3734.0 . Diff_s: 0.0 . Diff_mu: 30728.0 . ALL: 34462.0
-2024-10-02 20:39:03 - Iteration-->14 . Diff_b: 5292.9 . Diff_s: 0.0 . Diff_mu: 43556.6 . ALL: 48849.5
-2024-10-02 20:39:03 - Iteration-->15 . Diff_b: 7502.6 . Diff_s: 0.0 . Diff_mu: 61740.9 . ALL: 69243.5
-2024-10-02 20:39:03 - Iteration-->16 . Diff_b: 10634.9 . Diff_s: 0.0 . Diff_mu: 87516.9 . ALL: 98151.8
-2024-10-02 20:39:03 - Iteration-->17 . Diff_b: 15074.8 . Diff_s: 0.0 . Diff_mu: 124054.0 . ALL: 139128.8
-2024-10-02 20:39:03 - The RSparsePro algorithm didn't converge.
-2024-10-02 20:39:03 - Attainable coverage for effect groups: [1. 1. 0. 0. 0. 0. 0. 0. 0. 0.]
-2024-10-02 20:39:03 - Max ld across effect groups: 0.996.
-2024-10-02 20:39:03 - Min ld within effect groups: 1.0.
-2024-10-02 20:39:03 - vare = 0.0076
-2024-10-02 20:39:03 - Iteration-->0 . Diff_b: 260.5 . Diff_s: 3.1 . Diff_mu: 975.2 . ALL: 1238.8
-2024-10-02 20:39:03 - Iteration-->1 . Diff_b: 331.1 . Diff_s: 2.4 . Diff_mu: 1629.5 . ALL: 1963.0
-2024-10-02 20:39:03 - Iteration-->2 . Diff_b: 618.8 . Diff_s: 0.0 . Diff_mu: 3121.0 . ALL: 3739.7
-2024-10-02 20:39:03 - Iteration-->3 . Diff_b: 1236.4 . Diff_s: 1.2 . Diff_mu: 6182.9 . ALL: 7420.4
-2024-10-02 20:39:03 - Iteration-->4 . Diff_b: 2182.1 . Diff_s: 0.0 . Diff_mu: 11257.2 . ALL: 13439.3
-2024-10-02 20:39:03 - Iteration-->5 . Diff_b: 4407.7 . Diff_s: 0.0 . Diff_mu: 22342.7 . ALL: 26750.4
-2024-10-02 20:39:03 - Iteration-->6 . Diff_b: 8549.4 . Diff_s: 0.0 . Diff_mu: 43326.3 . ALL: 51875.7
-2024-10-02 20:39:03 - Iteration-->7 . Diff_b: 16583.2 . Diff_s: 0.0 . Diff_mu: 84032.1 . ALL: 100615.3
-2024-10-02 20:39:03 - The RSparsePro algorithm didn't converge.
-2024-10-02 20:39:03 - Attainable coverage for effect groups: [1. 1. 0. 1. 0. 0. 0. 0. 0. 1.]
-2024-10-02 20:39:03 - Max ld across effect groups: 0.949.
-2024-10-02 20:39:03 - Min ld within effect groups: 1.0.
-2024-10-02 20:39:03 - vare = 0.0114
-2024-10-02 20:39:04 - Iteration-->0 . Diff_b: 161.0 . Diff_s: 3.1 . Diff_mu: 505.0 . ALL: 669.1
-2024-10-02 20:39:04 - Iteration-->1 . Diff_b: 152.2 . Diff_s: 1.9 . Diff_mu: 907.3 . ALL: 1061.4
-2024-10-02 20:39:04 - Iteration-->2 . Diff_b: 345.4 . Diff_s: 0.0 . Diff_mu: 1923.0 . ALL: 2268.4
-2024-10-02 20:39:04 - Iteration-->3 . Diff_b: 782.6 . Diff_s: 0.0 . Diff_mu: 4332.4 . ALL: 5115.0
-2024-10-02 20:39:04 - Iteration-->4 . Diff_b: 1761.7 . Diff_s: 0.0 . Diff_mu: 9750.6 . ALL: 11512.3
-2024-10-02 20:39:04 - Iteration-->5 . Diff_b: 3964.6 . Diff_s: 0.0 . Diff_mu: 21942.6 . ALL: 25907.1
-2024-10-02 20:39:04 - Iteration-->6 . Diff_b: 8921.4 . Diff_s: 0.0 . Diff_mu: 49377.1 . ALL: 58298.5
-2024-10-02 20:39:04 - Iteration-->7 . Diff_b: 20075.3 . Diff_s: 0.0 . Diff_mu: 111110.7 . ALL: 131186.1
-2024-10-02 20:39:04 - The RSparsePro algorithm didn't converge.
-2024-10-02 20:39:04 - Attainable coverage for effect groups: [1. 1. 0. 1. 0. 0. 0. 0. 0. 0.]
-2024-10-02 20:39:04 - Max ld across effect groups: 0.998.
-2024-10-02 20:39:04 - Min ld within effect groups: 1.0.
-2024-10-02 20:39:04 - vare = 0.0171
-2024-10-02 20:39:04 - Iteration-->0 . Diff_b: 179.3 . Diff_s: 2.5 . Diff_mu: 605.3 . ALL: 787.1
-2024-10-02 20:39:04 - Iteration-->1 . Diff_b: 155.8 . Diff_s: 0.0 . Diff_mu: 1054.2 . ALL: 1210.0
-2024-10-02 20:39:04 - Iteration-->2 . Diff_b: 286.9 . Diff_s: 1.5 . Diff_mu: 1972.4 . ALL: 2260.8
-2024-10-02 20:39:04 - Iteration-->3 . Diff_b: 534.7 . Diff_s: 1.5 . Diff_mu: 3697.9 . ALL: 4234.0
-2024-10-02 20:39:04 - Iteration-->4 . Diff_b: 1007.4 . Diff_s: 1.0 . Diff_mu: 6909.7 . ALL: 7918.1
-2024-10-02 20:39:04 - Iteration-->5 . Diff_b: 1884.9 . Diff_s: 0.0 . Diff_mu: 13007.4 . ALL: 14892.3
-2024-10-02 20:39:04 - Iteration-->6 . Diff_b: 3537.6 . Diff_s: 0.0 . Diff_mu: 24327.2 . ALL: 27864.8
-2024-10-02 20:39:04 - Iteration-->7 . Diff_b: 6634.2 . Diff_s: 0.0 . Diff_mu: 45620.2 . ALL: 52254.4
-2024-10-02 20:39:04 - Iteration-->8 . Diff_b: 12441.0 . Diff_s: 0.0 . Diff_mu: 85550.7 . ALL: 97991.7
-2024-10-02 20:39:04 - Iteration-->9 . Diff_b: 23330.4 . Diff_s: 0.0 . Diff_mu: 160431.4 . ALL: 183761.7
-2024-10-02 20:39:04 - The RSparsePro algorithm didn't converge.
-2024-10-02 20:39:04 - Attainable coverage for effect groups: [1. 1. 0. 0. 0. 0. 0. 0. 0. 0.]
-2024-10-02 20:39:04 - Max ld across effect groups: 0.998.
-2024-10-02 20:39:04 - Min ld within effect groups: 1.0.
-2024-10-02 20:39:04 - vare = 0.0256
-2024-10-02 20:39:04 - Iteration-->0 . Diff_b: 143.5 . Diff_s: 1.1 . Diff_mu: 430.6 . ALL: 575.3
-2024-10-02 20:39:04 - Iteration-->1 . Diff_b: 81.3 . Diff_s: 0.6 . Diff_mu: 366.9 . ALL: 448.8
-2024-10-02 20:39:04 - Iteration-->2 . Diff_b: 4.4 . Diff_s: 0.6 . Diff_mu: 33.6 . ALL: 38.6
-2024-10-02 20:39:04 - Iteration-->3 . Diff_b: 11.6 . Diff_s: 0.9 . Diff_mu: 57.4 . ALL: 69.9
-2024-10-02 20:39:04 - Iteration-->4 . Diff_b: 32.0 . Diff_s: 2.0 . Diff_mu: 132.4 . ALL: 166.3
-2024-10-02 20:39:05 - Iteration-->5 . Diff_b: 227.6 . Diff_s: 2.5 . Diff_mu: 895.5 . ALL: 1125.6
-2024-10-02 20:39:05 - Iteration-->6 . Diff_b: 428.2 . Diff_s: 2.9 . Diff_mu: 1723.4 . ALL: 2154.5
-2024-10-02 20:39:05 - Iteration-->7 . Diff_b: 813.8 . Diff_s: 3.0 . Diff_mu: 3219.2 . ALL: 4036.0
-2024-10-02 20:39:05 - Iteration-->8 . Diff_b: 1543.7 . Diff_s: 3.0 . Diff_mu: 6170.7 . ALL: 7717.4
-2024-10-02 20:39:05 - Iteration-->9 . Diff_b: 2931.2 . Diff_s: 3.0 . Diff_mu: 11627.4 . ALL: 14561.6
-2024-10-02 20:39:05 - Iteration-->10 . Diff_b: 5566.2 . Diff_s: 3.0 . Diff_mu: 22219.6 . ALL: 27788.8
-2024-10-02 20:39:05 - Iteration-->11 . Diff_b: 10571.4 . Diff_s: 3.0 . Diff_mu: 41962.3 . ALL: 52536.8
-2024-10-02 20:39:05 - Iteration-->12 . Diff_b: 20067.6 . Diff_s: 3.0 . Diff_mu: 80069.6 . ALL: 100140.1
-2024-10-02 20:39:05 - The RSparsePro algorithm didn't converge.
-2024-10-02 20:39:05 - Attainable coverage for effect groups: [1. 1. 0. 0. 0. 0. 1. 0. 1. 0.]
-2024-10-02 20:39:05 - Max ld across effect groups: 0.998.
-2024-10-02 20:39:05 - Min ld within effect groups: 1.0.
-2024-10-02 20:39:05 - vare = 0.0384
-2024-10-02 20:39:05 - Iteration-->0 . Diff_b: 110.5 . Diff_s: 0.8 . Diff_mu: 145.2 . ALL: 256.5
-2024-10-02 20:39:05 - Iteration-->1 . Diff_b: 0.2 . Diff_s: 0.3 . Diff_mu: 85.7 . ALL: 86.3
-2024-10-02 20:39:05 - Iteration-->2 . Diff_b: 0.1 . Diff_s: 0.1 . Diff_mu: 12.7 . ALL: 12.9
-2024-10-02 20:39:05 - Iteration-->3 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 2.3 . ALL: 2.4
-2024-10-02 20:39:05 - Iteration-->4 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 0.5 . ALL: 0.5
-2024-10-02 20:39:05 - Iteration-->5 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 0.1 . ALL: 0.1
-2024-10-02 20:39:05 - Iteration-->6 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 0.0 . ALL: 0.0
-2024-10-02 20:39:05 - Iteration-->7 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 0.0 . ALL: 0.0
-2024-10-02 20:39:05 - Iteration-->8 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 0.0 . ALL: 0.0
-2024-10-02 20:39:05 - Iteration-->9 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 0.0 . ALL: 0.0
-2024-10-02 20:39:05 - Iteration-->10 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 0.0 . ALL: 0.0
-2024-10-02 20:39:05 - Iteration-->11 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 0.0 . ALL: 0.0
-2024-10-02 20:39:05 - Iteration-->12 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 0.0 . ALL: 0.0
-2024-10-02 20:39:05 - The RSparsePro algorithm has converged.
-2024-10-02 20:39:05 - Attainable coverage for effect groups: [1.   1.   0.99 0.08 0.   0.   0.   0.03 0.   0.01]
-2024-10-02 20:39:05 - Max ld across effect groups: 0.086.
-2024-10-02 20:39:05 - Min ld within effect groups: 0.827.
-2024-10-02 20:39:05 - vare = 0.0577
-2024-10-02 20:39:05 - The 0-th effect group contains effective variants:
-2024-10-02 20:39:05 - causal variants: ['rs6686568', 'rs11588632', 'rs1883466', 'rs534695551', 'rs6600264', 'rs6600265', 'rs72659077', 'rs4649067', 'rs138937982', 'rs72659079', 'rs77642975', 'rs4649075', 'rs6686564', 'rs10158827', 'rs4648900', 'rs55758151', 'rs4649073', 'rs4649074', 'rs2375111', 'rs56389534', 'rs28487940', 'rs1883463', 'rs11587460', 'rs7527379']
-2024-10-02 20:39:05 - variant probabilities for this effect group: [0.1627 0.1481 0.1442 0.1442 0.1314 0.0734 0.0369 0.012  0.012  0.012
+2024-10-15 20:31:32 - **********************************************************************
+2024-10-15 20:31:32 - * RSparsePro for robust fine-mapping in the presence of LD mismatch  *
+2024-10-15 20:31:32 - * Version 1.0.0                                                      *
+2024-10-15 20:31:32 - * (C) Wenmin Zhang (wenmin.zhang@mail.mcgill.ca)                     *
+2024-10-15 20:31:32 - **********************************************************************
+2024-10-15 20:31:32 - z: dat/test.z.txt
+2024-10-15 20:31:32 - ld: dat/ld.txt
+2024-10-15 20:31:32 - save: dat/test
+2024-10-15 20:31:32 - K: 10
+2024-10-15 20:31:32 - maxite: 100
+2024-10-15 20:31:32 - eps: 1e-05
+2024-10-15 20:31:32 - ubound: 100000
+2024-10-15 20:31:32 - cthres: 0.95
+2024-10-15 20:31:32 - eincre: 1.5
+2024-10-15 20:31:32 - minldthres: 0.7
+2024-10-15 20:31:32 - maxldthres: 0.2
+2024-10-15 20:31:32 - varemax: 100.0
+2024-10-15 20:31:32 - varemin: 0.001
+2024-10-15 20:31:33 - Iteration-->0 . Diff_b: 111.8 . Diff_s: 2.2 . Diff_mu: 207.8 . ALL: 321.8
+2024-10-15 20:31:33 - Iteration-->1 . Diff_b: 0.0 . Diff_s: 0.8 . Diff_mu: 295.9 . ALL: 296.7
+2024-10-15 20:31:33 - Iteration-->2 . Diff_b: 0.0 . Diff_s: 0.2 . Diff_mu: 221.2 . ALL: 221.4
+2024-10-15 20:31:33 - Iteration-->3 . Diff_b: 0.0 . Diff_s: 1.0 . Diff_mu: 243.2 . ALL: 244.2
+2024-10-15 20:31:33 - Iteration-->4 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 226.3 . ALL: 226.4
+2024-10-15 20:31:33 - Iteration-->5 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 222.8 . ALL: 222.9
+2024-10-15 20:31:33 - Iteration-->6 . Diff_b: 0.0 . Diff_s: 0.2 . Diff_mu: 222.7 . ALL: 222.9
+2024-10-15 20:31:33 - Iteration-->7 . Diff_b: 0.0 . Diff_s: 0.2 . Diff_mu: 222.7 . ALL: 222.9
+2024-10-15 20:31:33 - Iteration-->8 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 222.8 . ALL: 222.9
+2024-10-15 20:31:33 - Iteration-->9 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 222.8 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->10 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.8 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->11 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->12 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->13 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->14 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->15 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->16 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->17 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->18 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->19 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->20 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->21 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->22 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->23 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->24 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->25 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->26 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->27 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->28 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->29 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->30 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->31 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->32 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->33 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->34 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->35 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->36 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->37 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->38 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->39 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->40 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->41 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->42 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->43 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->44 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->45 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->46 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->47 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->48 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->49 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->50 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->51 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->52 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->53 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->54 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->55 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->56 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->57 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->58 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->59 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->60 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->61 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->62 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->63 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->64 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->65 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->66 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->67 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->68 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->69 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:34 - Iteration-->70 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->71 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->72 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->73 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->74 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->75 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->76 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->77 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->78 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->79 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->80 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->81 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->82 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->83 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->84 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->85 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->86 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->87 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->88 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->89 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->90 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->91 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->92 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->93 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->94 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->95 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->96 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->97 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->98 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - Iteration-->99 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 222.9 . ALL: 222.9
+2024-10-15 20:31:35 - The RSparsePro algorithm didn't converge.
+2024-10-15 20:31:35 - Attainable coverage for effect groups: [1. 1. 1. 1. 0. 0. 0. 0. 0. 0.]
+2024-10-15 20:31:35 - Max ld across effect groups: 1.0.
+2024-10-15 20:31:35 - Min ld within effect groups: 1.0.
+2024-10-15 20:31:35 - vare = 0
+2024-10-15 20:31:36 - Iteration-->0 . Diff_b: 111.4 . Diff_s: 1.3 . Diff_mu: 156.5 . ALL: 269.2
+2024-10-15 20:31:36 - Iteration-->1 . Diff_b: 0.0 . Diff_s: 0.9 . Diff_mu: 98.0 . ALL: 98.9
+2024-10-15 20:31:36 - Iteration-->2 . Diff_b: 0.0 . Diff_s: 0.7 . Diff_mu: 49.5 . ALL: 50.2
+2024-10-15 20:31:36 - Iteration-->3 . Diff_b: 0.0 . Diff_s: 0.8 . Diff_mu: 58.0 . ALL: 58.8
+2024-10-15 20:31:36 - Iteration-->4 . Diff_b: 0.0 . Diff_s: 0.7 . Diff_mu: 72.3 . ALL: 73.0
+2024-10-15 20:31:36 - Iteration-->5 . Diff_b: 0.0 . Diff_s: 0.4 . Diff_mu: 74.8 . ALL: 75.2
+2024-10-15 20:31:36 - Iteration-->6 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 72.5 . ALL: 72.6
+2024-10-15 20:31:36 - Iteration-->7 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 65.9 . ALL: 66.1
+2024-10-15 20:31:36 - Iteration-->8 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 63.7 . ALL: 63.8
+2024-10-15 20:31:36 - Iteration-->9 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 61.6 . ALL: 61.7
+2024-10-15 20:31:36 - Iteration-->10 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 59.5 . ALL: 59.6
+2024-10-15 20:31:36 - Iteration-->11 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 57.5 . ALL: 57.6
+2024-10-15 20:31:36 - Iteration-->12 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 55.6 . ALL: 55.7
+2024-10-15 20:31:36 - Iteration-->13 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 53.8 . ALL: 54.0
+2024-10-15 20:31:36 - Iteration-->14 . Diff_b: 0.0 . Diff_s: 0.3 . Diff_mu: 52.5 . ALL: 52.8
+2024-10-15 20:31:36 - Iteration-->15 . Diff_b: 0.0 . Diff_s: 0.4 . Diff_mu: 51.9 . ALL: 52.3
+2024-10-15 20:31:36 - Iteration-->16 . Diff_b: 0.0 . Diff_s: 0.2 . Diff_mu: 51.1 . ALL: 51.2
+2024-10-15 20:31:36 - Iteration-->17 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 49.5 . ALL: 49.5
+2024-10-15 20:31:36 - Iteration-->18 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 48.1 . ALL: 48.2
+2024-10-15 20:31:36 - Iteration-->19 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 46.8 . ALL: 46.8
+2024-10-15 20:31:36 - Iteration-->20 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 45.5 . ALL: 45.5
+2024-10-15 20:31:36 - Iteration-->21 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 44.2 . ALL: 44.2
+2024-10-15 20:31:36 - Iteration-->22 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 43.0 . ALL: 43.0
+2024-10-15 20:31:36 - Iteration-->23 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 41.8 . ALL: 41.8
+2024-10-15 20:31:36 - Iteration-->24 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 40.6 . ALL: 40.6
+2024-10-15 20:31:36 - Iteration-->25 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 39.5 . ALL: 39.5
+2024-10-15 20:31:36 - Iteration-->26 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 38.3 . ALL: 38.4
+2024-10-15 20:31:36 - Iteration-->27 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 37.3 . ALL: 37.3
+2024-10-15 20:31:36 - Iteration-->28 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 36.2 . ALL: 36.2
+2024-10-15 20:31:36 - Iteration-->29 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 35.2 . ALL: 35.2
+2024-10-15 20:31:36 - Iteration-->30 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 34.2 . ALL: 34.2
+2024-10-15 20:31:36 - Iteration-->31 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 33.3 . ALL: 33.3
+2024-10-15 20:31:36 - Iteration-->32 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 32.3 . ALL: 32.3
+2024-10-15 20:31:36 - Iteration-->33 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 31.4 . ALL: 31.4
+2024-10-15 20:31:37 - Iteration-->34 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 30.5 . ALL: 30.6
+2024-10-15 20:31:37 - Iteration-->35 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 29.7 . ALL: 29.7
+2024-10-15 20:31:37 - Iteration-->36 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 28.8 . ALL: 28.9
+2024-10-15 20:31:37 - Iteration-->37 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 28.0 . ALL: 28.1
+2024-10-15 20:31:37 - Iteration-->38 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 27.3 . ALL: 27.3
+2024-10-15 20:31:37 - Iteration-->39 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 26.5 . ALL: 26.5
+2024-10-15 20:31:37 - Iteration-->40 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 25.8 . ALL: 25.8
+2024-10-15 20:31:37 - Iteration-->41 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 25.0 . ALL: 25.1
+2024-10-15 20:31:37 - Iteration-->42 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 24.3 . ALL: 24.4
+2024-10-15 20:31:37 - Iteration-->43 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 23.7 . ALL: 23.7
+2024-10-15 20:31:37 - Iteration-->44 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 23.0 . ALL: 23.0
+2024-10-15 20:31:37 - Iteration-->45 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 22.4 . ALL: 22.4
+2024-10-15 20:31:37 - Iteration-->46 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 21.8 . ALL: 21.8
+2024-10-15 20:31:37 - Iteration-->47 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 21.2 . ALL: 21.2
+2024-10-15 20:31:37 - Iteration-->48 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 20.7 . ALL: 20.7
+2024-10-15 20:31:37 - Iteration-->49 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 20.2 . ALL: 20.2
+2024-10-15 20:31:37 - Iteration-->50 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 19.7 . ALL: 19.8
+2024-10-15 20:31:37 - Iteration-->51 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 19.5 . ALL: 19.5
+2024-10-15 20:31:37 - Iteration-->52 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 19.4 . ALL: 19.5
+2024-10-15 20:31:37 - Iteration-->53 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 19.8 . ALL: 19.9
+2024-10-15 20:31:37 - Iteration-->54 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 21.0 . ALL: 21.1
+2024-10-15 20:31:37 - Iteration-->55 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 23.5 . ALL: 23.7
+2024-10-15 20:31:37 - Iteration-->56 . Diff_b: 0.0 . Diff_s: 0.2 . Diff_mu: 27.5 . ALL: 27.7
+2024-10-15 20:31:37 - Iteration-->57 . Diff_b: 0.0 . Diff_s: 0.2 . Diff_mu: 30.9 . ALL: 31.2
+2024-10-15 20:31:37 - Iteration-->58 . Diff_b: 0.0 . Diff_s: 0.2 . Diff_mu: 28.5 . ALL: 28.8
+2024-10-15 20:31:37 - Iteration-->59 . Diff_b: 0.0 . Diff_s: 0.2 . Diff_mu: 22.2 . ALL: 22.3
+2024-10-15 20:31:37 - Iteration-->60 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 18.7 . ALL: 18.8
+2024-10-15 20:31:37 - Iteration-->61 . Diff_b: 0.0 . Diff_s: 0.1 . Diff_mu: 17.5 . ALL: 17.6
+2024-10-15 20:31:37 - Iteration-->62 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 16.9 . ALL: 17.0
+2024-10-15 20:31:37 - Iteration-->63 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 16.5 . ALL: 16.5
+2024-10-15 20:31:37 - Iteration-->64 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 16.0 . ALL: 16.1
+2024-10-15 20:31:37 - Iteration-->65 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 15.6 . ALL: 15.7
+2024-10-15 20:31:37 - Iteration-->66 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 15.2 . ALL: 15.2
+2024-10-15 20:31:37 - Iteration-->67 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 14.8 . ALL: 14.8
+2024-10-15 20:31:37 - Iteration-->68 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 14.4 . ALL: 14.5
+2024-10-15 20:31:37 - Iteration-->69 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 14.0 . ALL: 14.1
+2024-10-15 20:31:37 - Iteration-->70 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 13.7 . ALL: 13.7
+2024-10-15 20:31:37 - Iteration-->71 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 13.3 . ALL: 13.3
+2024-10-15 20:31:37 - Iteration-->72 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 13.0 . ALL: 13.0
+2024-10-15 20:31:37 - Iteration-->73 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 12.6 . ALL: 12.6
+2024-10-15 20:31:37 - Iteration-->74 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 12.3 . ALL: 12.3
+2024-10-15 20:31:37 - Iteration-->75 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 12.0 . ALL: 12.0
+2024-10-15 20:31:37 - Iteration-->76 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 11.7 . ALL: 11.7
+2024-10-15 20:31:37 - Iteration-->77 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 11.4 . ALL: 11.4
+2024-10-15 20:31:37 - Iteration-->78 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 11.1 . ALL: 11.1
+2024-10-15 20:31:37 - Iteration-->79 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 10.8 . ALL: 10.8
+2024-10-15 20:31:37 - Iteration-->80 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 10.5 . ALL: 10.5
+2024-10-15 20:31:37 - Iteration-->81 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 10.3 . ALL: 10.3
+2024-10-15 20:31:37 - Iteration-->82 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 10.0 . ALL: 10.0
+2024-10-15 20:31:37 - Iteration-->83 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 9.8 . ALL: 9.8
+2024-10-15 20:31:37 - Iteration-->84 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 9.6 . ALL: 9.6
+2024-10-15 20:31:37 - Iteration-->85 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 9.3 . ALL: 9.4
+2024-10-15 20:31:37 - Iteration-->86 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 9.2 . ALL: 9.2
+2024-10-15 20:31:37 - Iteration-->87 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 9.0 . ALL: 9.0
+2024-10-15 20:31:37 - Iteration-->88 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 8.8 . ALL: 8.8
+2024-10-15 20:31:37 - Iteration-->89 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 8.6 . ALL: 8.7
+2024-10-15 20:31:37 - Iteration-->90 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 8.5 . ALL: 8.5
+2024-10-15 20:31:37 - Iteration-->91 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 8.3 . ALL: 8.4
+2024-10-15 20:31:37 - Iteration-->92 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 8.2 . ALL: 8.2
+2024-10-15 20:31:37 - Iteration-->93 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 8.1 . ALL: 8.1
+2024-10-15 20:31:37 - Iteration-->94 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 7.9 . ALL: 8.0
+2024-10-15 20:31:37 - Iteration-->95 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 7.8 . ALL: 7.8
+2024-10-15 20:31:37 - Iteration-->96 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 7.7 . ALL: 7.7
+2024-10-15 20:31:37 - Iteration-->97 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 7.6 . ALL: 7.6
+2024-10-15 20:31:37 - Iteration-->98 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 7.4 . ALL: 7.5
+2024-10-15 20:31:37 - Iteration-->99 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 7.3 . ALL: 7.3
+2024-10-15 20:31:37 - The RSparsePro algorithm didn't converge.
+2024-10-15 20:31:37 - Attainable coverage for effect groups: [1.   1.   1.   1.   1.   0.57 1.   1.   0.   0.  ]
+2024-10-15 20:31:37 - Max ld across effect groups: 0.992.
+2024-10-15 20:31:37 - Min ld within effect groups: 0.416.
+2024-10-15 20:31:37 - vare = 0.001
+2024-10-15 20:31:38 - Iteration-->0 . Diff_b: 124.8 . Diff_s: 3.0 . Diff_mu: 306.8 . ALL: 434.6
+2024-10-15 20:31:38 - Iteration-->1 . Diff_b: 1.3 . Diff_s: 1.0 . Diff_mu: 340.5 . ALL: 342.8
+2024-10-15 20:31:38 - Iteration-->2 . Diff_b: 1.1 . Diff_s: 0.7 . Diff_mu: 284.7 . ALL: 286.5
+2024-10-15 20:31:38 - Iteration-->3 . Diff_b: 0.9 . Diff_s: 1.5 . Diff_mu: 284.8 . ALL: 287.3
+2024-10-15 20:31:38 - Iteration-->4 . Diff_b: 0.7 . Diff_s: 0.1 . Diff_mu: 260.0 . ALL: 260.8
+2024-10-15 20:31:38 - Iteration-->5 . Diff_b: 0.8 . Diff_s: 0.0 . Diff_mu: 179.7 . ALL: 180.5
+2024-10-15 20:31:38 - Iteration-->6 . Diff_b: 0.7 . Diff_s: 2.0 . Diff_mu: 262.6 . ALL: 265.3
+2024-10-15 20:31:38 - Iteration-->7 . Diff_b: 0.2 . Diff_s: 0.1 . Diff_mu: 293.6 . ALL: 293.9
+2024-10-15 20:31:38 - Iteration-->8 . Diff_b: 0.8 . Diff_s: 0.2 . Diff_mu: 194.2 . ALL: 195.2
+2024-10-15 20:31:38 - Iteration-->9 . Diff_b: 0.7 . Diff_s: 0.4 . Diff_mu: 191.3 . ALL: 192.5
+2024-10-15 20:31:38 - Iteration-->10 . Diff_b: 0.7 . Diff_s: 0.4 . Diff_mu: 189.7 . ALL: 190.8
+2024-10-15 20:31:38 - Iteration-->11 . Diff_b: 0.7 . Diff_s: 0.1 . Diff_mu: 188.4 . ALL: 189.2
+2024-10-15 20:31:38 - Iteration-->12 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 187.1 . ALL: 187.8
+2024-10-15 20:31:38 - Iteration-->13 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 186.0 . ALL: 186.7
+2024-10-15 20:31:38 - Iteration-->14 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 185.0 . ALL: 185.7
+2024-10-15 20:31:38 - Iteration-->15 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 184.1 . ALL: 184.8
+2024-10-15 20:31:38 - Iteration-->16 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 183.4 . ALL: 184.0
+2024-10-15 20:31:38 - Iteration-->17 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 182.7 . ALL: 183.3
+2024-10-15 20:31:38 - Iteration-->18 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 182.1 . ALL: 182.7
+2024-10-15 20:31:38 - Iteration-->19 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 181.5 . ALL: 182.1
+2024-10-15 20:31:38 - Iteration-->20 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 181.0 . ALL: 181.6
+2024-10-15 20:31:38 - Iteration-->21 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.4 . ALL: 181.1
+2024-10-15 20:31:38 - Iteration-->22 . Diff_b: 0.6 . Diff_s: 0.1 . Diff_mu: 179.8 . ALL: 180.4
+2024-10-15 20:31:38 - Iteration-->23 . Diff_b: 0.6 . Diff_s: 0.4 . Diff_mu: 181.3 . ALL: 182.3
+2024-10-15 20:31:38 - Iteration-->24 . Diff_b: 0.6 . Diff_s: 0.8 . Diff_mu: 190.9 . ALL: 192.3
+2024-10-15 20:31:39 - Iteration-->25 . Diff_b: 0.6 . Diff_s: 0.1 . Diff_mu: 178.8 . ALL: 179.4
+2024-10-15 20:31:39 - Iteration-->26 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 178.7 . ALL: 179.3
+2024-10-15 20:31:39 - Iteration-->27 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 179.0 . ALL: 179.6
+2024-10-15 20:31:39 - Iteration-->28 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 179.3 . ALL: 179.9
+2024-10-15 20:31:39 - Iteration-->29 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 179.6 . ALL: 180.1
+2024-10-15 20:31:39 - Iteration-->30 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 179.7 . ALL: 180.3
+2024-10-15 20:31:39 - Iteration-->31 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 179.9 . ALL: 180.5
+2024-10-15 20:31:39 - Iteration-->32 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.0 . ALL: 180.6
+2024-10-15 20:31:39 - Iteration-->33 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.1 . ALL: 180.7
+2024-10-15 20:31:39 - Iteration-->34 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.1 . ALL: 180.7
+2024-10-15 20:31:39 - Iteration-->35 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.7
+2024-10-15 20:31:39 - Iteration-->36 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
+2024-10-15 20:31:39 - Iteration-->37 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
+2024-10-15 20:31:39 - Iteration-->38 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
+2024-10-15 20:31:39 - Iteration-->39 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
+2024-10-15 20:31:39 - Iteration-->40 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
+2024-10-15 20:31:39 - Iteration-->41 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
+2024-10-15 20:31:39 - Iteration-->42 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
+2024-10-15 20:31:39 - Iteration-->43 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
+2024-10-15 20:31:39 - Iteration-->44 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
+2024-10-15 20:31:39 - Iteration-->45 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
+2024-10-15 20:31:39 - Iteration-->46 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.2 . ALL: 180.8
+2024-10-15 20:31:39 - Iteration-->47 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.3 . ALL: 180.8
+2024-10-15 20:31:39 - Iteration-->48 . Diff_b: 0.6 . Diff_s: 0.0 . Diff_mu: 180.3 . ALL: 180.9
+2024-10-15 20:31:39 - Iteration-->49 . Diff_b: 0.5 . Diff_s: 0.0 . Diff_mu: 180.3 . ALL: 180.9
+2024-10-15 20:31:39 - Iteration-->50 . Diff_b: 0.5 . Diff_s: 0.0 . Diff_mu: 180.4 . ALL: 180.9
+2024-10-15 20:31:39 - Iteration-->51 . Diff_b: 0.5 . Diff_s: 0.0 . Diff_mu: 180.5 . ALL: 181.0
+2024-10-15 20:31:39 - Iteration-->52 . Diff_b: 0.5 . Diff_s: 0.0 . Diff_mu: 180.5 . ALL: 181.1
+2024-10-15 20:31:39 - Iteration-->53 . Diff_b: 0.5 . Diff_s: 0.0 . Diff_mu: 180.6 . ALL: 181.1
+2024-10-15 20:31:39 - Iteration-->54 . Diff_b: 0.5 . Diff_s: 0.0 . Diff_mu: 180.7 . ALL: 181.2
+2024-10-15 20:31:39 - Iteration-->55 . Diff_b: 0.5 . Diff_s: 0.1 . Diff_mu: 182.5 . ALL: 183.2
+2024-10-15 20:31:39 - Iteration-->56 . Diff_b: 0.5 . Diff_s: 0.9 . Diff_mu: 331.4 . ALL: 332.9
+2024-10-15 20:31:39 - Iteration-->57 . Diff_b: 0.4 . Diff_s: 1.0 . Diff_mu: 423.5 . ALL: 425.0
+2024-10-15 20:31:39 - Iteration-->58 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 308.6 . ALL: 309.4
+2024-10-15 20:31:39 - Iteration-->59 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 240.2 . ALL: 240.9
+2024-10-15 20:31:39 - Iteration-->60 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 235.8 . ALL: 236.6
+2024-10-15 20:31:39 - Iteration-->61 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 232.6 . ALL: 233.3
+2024-10-15 20:31:39 - Iteration-->62 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 230.0 . ALL: 230.7
+2024-10-15 20:31:39 - Iteration-->63 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 227.8 . ALL: 228.6
+2024-10-15 20:31:39 - Iteration-->64 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 226.1 . ALL: 226.8
+2024-10-15 20:31:39 - Iteration-->65 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 224.7 . ALL: 225.4
+2024-10-15 20:31:39 - Iteration-->66 . Diff_b: 0.7 . Diff_s: 0.0 . Diff_mu: 223.6 . ALL: 224.3
+2024-10-15 20:31:39 - Iteration-->67 . Diff_b: 0.8 . Diff_s: 0.0 . Diff_mu: 222.7 . ALL: 223.4
+2024-10-15 20:31:39 - Iteration-->68 . Diff_b: 0.8 . Diff_s: 0.0 . Diff_mu: 222.0 . ALL: 222.7
+2024-10-15 20:31:39 - Iteration-->69 . Diff_b: 0.8 . Diff_s: 0.0 . Diff_mu: 221.4 . ALL: 222.2
+2024-10-15 20:31:39 - Iteration-->70 . Diff_b: 0.8 . Diff_s: 0.0 . Diff_mu: 221.0 . ALL: 221.8
+2024-10-15 20:31:39 - Iteration-->71 . Diff_b: 0.8 . Diff_s: 0.0 . Diff_mu: 220.7 . ALL: 221.5
+2024-10-15 20:31:39 - Iteration-->72 . Diff_b: 0.8 . Diff_s: 0.0 . Diff_mu: 220.5 . ALL: 221.3
+2024-10-15 20:31:39 - Iteration-->73 . Diff_b: 0.8 . Diff_s: 0.0 . Diff_mu: 220.4 . ALL: 221.2
+2024-10-15 20:31:39 - Iteration-->74 . Diff_b: 0.8 . Diff_s: 0.2 . Diff_mu: 222.5 . ALL: 223.4
+2024-10-15 20:31:39 - Iteration-->75 . Diff_b: 0.7 . Diff_s: 1.7 . Diff_mu: 430.7 . ALL: 433.0
+2024-10-15 20:31:39 - Iteration-->76 . Diff_b: 4.1 . Diff_s: 1.4 . Diff_mu: 402.6 . ALL: 408.1
+2024-10-15 20:31:39 - Iteration-->77 . Diff_b: 1.3 . Diff_s: 0.0 . Diff_mu: 284.7 . ALL: 286.0
+2024-10-15 20:31:39 - Iteration-->78 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 283.2 . ALL: 284.1
+2024-10-15 20:31:39 - Iteration-->79 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 282.6 . ALL: 283.5
+2024-10-15 20:31:39 - Iteration-->80 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 282.5 . ALL: 283.4
+2024-10-15 20:31:39 - Iteration-->81 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 282.8 . ALL: 283.6
+2024-10-15 20:31:39 - Iteration-->82 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 283.3 . ALL: 284.2
+2024-10-15 20:31:39 - Iteration-->83 . Diff_b: 0.9 . Diff_s: 1.3 . Diff_mu: 347.4 . ALL: 349.6
+2024-10-15 20:31:39 - Iteration-->84 . Diff_b: 0.7 . Diff_s: 0.1 . Diff_mu: 298.4 . ALL: 299.1
+2024-10-15 20:31:39 - Iteration-->85 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 297.9 . ALL: 298.8
+2024-10-15 20:31:39 - Iteration-->86 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 299.2 . ALL: 300.1
+2024-10-15 20:31:39 - Iteration-->87 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 300.5 . ALL: 301.4
+2024-10-15 20:31:39 - Iteration-->88 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 301.9 . ALL: 302.8
+2024-10-15 20:31:39 - Iteration-->89 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 303.4 . ALL: 304.3
+2024-10-15 20:31:39 - Iteration-->90 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 305.0 . ALL: 305.9
+2024-10-15 20:31:39 - Iteration-->91 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 306.6 . ALL: 307.6
+2024-10-15 20:31:39 - Iteration-->92 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 308.3 . ALL: 309.3
+2024-10-15 20:31:39 - Iteration-->93 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 310.1 . ALL: 311.0
+2024-10-15 20:31:39 - Iteration-->94 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 311.9 . ALL: 312.9
+2024-10-15 20:31:39 - Iteration-->95 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 313.8 . ALL: 314.7
+2024-10-15 20:31:39 - Iteration-->96 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 315.7 . ALL: 316.7
+2024-10-15 20:31:39 - Iteration-->97 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 317.7 . ALL: 318.6
+2024-10-15 20:31:39 - Iteration-->98 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 319.7 . ALL: 320.6
+2024-10-15 20:31:39 - Iteration-->99 . Diff_b: 0.9 . Diff_s: 0.0 . Diff_mu: 321.8 . ALL: 322.7
+2024-10-15 20:31:39 - The RSparsePro algorithm didn't converge.
+2024-10-15 20:31:39 - Attainable coverage for effect groups: [1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+2024-10-15 20:31:39 - Max ld across effect groups: 0.997.
+2024-10-15 20:31:39 - Min ld within effect groups: 1.0.
+2024-10-15 20:31:39 - vare = 0.0015
+2024-10-15 20:31:40 - Iteration-->0 . Diff_b: 235.7 . Diff_s: 3.2 . Diff_mu: 854.1 . ALL: 1092.9
+2024-10-15 20:31:40 - Iteration-->1 . Diff_b: 22.4 . Diff_s: 1.4 . Diff_mu: 853.0 . ALL: 876.8
+2024-10-15 20:31:40 - Iteration-->2 . Diff_b: 16.1 . Diff_s: 0.0 . Diff_mu: 707.3 . ALL: 723.4
+2024-10-15 20:31:40 - Iteration-->3 . Diff_b: 15.4 . Diff_s: 0.0 . Diff_mu: 618.9 . ALL: 634.3
+2024-10-15 20:31:40 - Iteration-->4 . Diff_b: 13.0 . Diff_s: 1.4 . Diff_mu: 590.7 . ALL: 605.1
+2024-10-15 20:31:40 - Iteration-->5 . Diff_b: 7.0 . Diff_s: 0.0 . Diff_mu: 469.2 . ALL: 476.2
+2024-10-15 20:31:40 - Iteration-->6 . Diff_b: 10.0 . Diff_s: 0.0 . Diff_mu: 431.1 . ALL: 441.1
+2024-10-15 20:31:40 - Iteration-->7 . Diff_b: 8.8 . Diff_s: 0.0 . Diff_mu: 376.2 . ALL: 385.0
+2024-10-15 20:31:40 - Iteration-->8 . Diff_b: 7.7 . Diff_s: 0.0 . Diff_mu: 328.3 . ALL: 336.0
+2024-10-15 20:31:40 - Iteration-->9 . Diff_b: 6.7 . Diff_s: 1.2 . Diff_mu: 288.3 . ALL: 296.2
+2024-10-15 20:31:40 - Iteration-->10 . Diff_b: 11.1 . Diff_s: 1.2 . Diff_mu: 327.1 . ALL: 339.5
+2024-10-15 20:31:40 - Iteration-->11 . Diff_b: 24.7 . Diff_s: 1.2 . Diff_mu: 327.9 . ALL: 353.8
+2024-10-15 20:31:40 - Iteration-->12 . Diff_b: 13.6 . Diff_s: 0.0 . Diff_mu: 287.0 . ALL: 300.6
+2024-10-15 20:31:40 - Iteration-->13 . Diff_b: 5.8 . Diff_s: 0.0 . Diff_mu: 299.5 . ALL: 305.4
+2024-10-15 20:31:40 - Iteration-->14 . Diff_b: 5.3 . Diff_s: 0.0 . Diff_mu: 276.3 . ALL: 281.5
+2024-10-15 20:31:40 - Iteration-->15 . Diff_b: 4.8 . Diff_s: 1.2 . Diff_mu: 303.7 . ALL: 309.7
+2024-10-15 20:31:40 - Iteration-->16 . Diff_b: 16.9 . Diff_s: 1.2 . Diff_mu: 341.4 . ALL: 359.5
+2024-10-15 20:31:40 - Iteration-->17 . Diff_b: 28.7 . Diff_s: 1.2 . Diff_mu: 328.0 . ALL: 358.0
+2024-10-15 20:31:40 - Iteration-->18 . Diff_b: 20.4 . Diff_s: 0.0 . Diff_mu: 292.0 . ALL: 312.4
+2024-10-15 20:31:40 - Iteration-->19 . Diff_b: 5.2 . Diff_s: 0.0 . Diff_mu: 315.9 . ALL: 321.0
+2024-10-15 20:31:40 - Iteration-->20 . Diff_b: 4.8 . Diff_s: 0.0 . Diff_mu: 300.8 . ALL: 305.6
+2024-10-15 20:31:40 - Iteration-->21 . Diff_b: 4.5 . Diff_s: 0.0 . Diff_mu: 287.3 . ALL: 291.9
+2024-10-15 20:31:40 - Iteration-->22 . Diff_b: 4.2 . Diff_s: 0.0 . Diff_mu: 275.3 . ALL: 279.5
+2024-10-15 20:31:40 - Iteration-->23 . Diff_b: 4.0 . Diff_s: 0.0 . Diff_mu: 264.5 . ALL: 268.5
+2024-10-15 20:31:40 - Iteration-->24 . Diff_b: 3.7 . Diff_s: 0.0 . Diff_mu: 255.0 . ALL: 258.7
+2024-10-15 20:31:40 - Iteration-->25 . Diff_b: 3.5 . Diff_s: 0.0 . Diff_mu: 246.5 . ALL: 250.0
+2024-10-15 20:31:40 - Iteration-->26 . Diff_b: 3.3 . Diff_s: 1.1 . Diff_mu: 246.3 . ALL: 250.7
+2024-10-15 20:31:40 - Iteration-->27 . Diff_b: 25.8 . Diff_s: 1.2 . Diff_mu: 307.6 . ALL: 334.7
+2024-10-15 20:31:40 - Iteration-->28 . Diff_b: 34.9 . Diff_s: 1.2 . Diff_mu: 373.8 . ALL: 410.0
+2024-10-15 20:31:41 - Iteration-->29 . Diff_b: 31.6 . Diff_s: 1.2 . Diff_mu: 365.0 . ALL: 397.8
+2024-10-15 20:31:41 - Iteration-->30 . Diff_b: 39.6 . Diff_s: 1.2 . Diff_mu: 369.7 . ALL: 410.5
+2024-10-15 20:31:41 - Iteration-->31 . Diff_b: 33.5 . Diff_s: 1.3 . Diff_mu: 348.7 . ALL: 383.4
+2024-10-15 20:31:41 - Iteration-->32 . Diff_b: 32.2 . Diff_s: 1.3 . Diff_mu: 375.5 . ALL: 408.9
+2024-10-15 20:31:41 - Iteration-->33 . Diff_b: 26.0 . Diff_s: 0.0 . Diff_mu: 281.1 . ALL: 307.1
+2024-10-15 20:31:41 - Iteration-->34 . Diff_b: 4.1 . Diff_s: 0.0 . Diff_mu: 304.3 . ALL: 308.4
+2024-10-15 20:31:41 - Iteration-->35 . Diff_b: 3.9 . Diff_s: 0.0 . Diff_mu: 296.4 . ALL: 300.3
+2024-10-15 20:31:41 - Iteration-->36 . Diff_b: 3.8 . Diff_s: 0.0 . Diff_mu: 289.0 . ALL: 292.8
+2024-10-15 20:31:41 - Iteration-->37 . Diff_b: 3.6 . Diff_s: 0.0 . Diff_mu: 282.2 . ALL: 285.8
+2024-10-15 20:31:41 - Iteration-->38 . Diff_b: 3.5 . Diff_s: 0.0 . Diff_mu: 275.8 . ALL: 279.4
+2024-10-15 20:31:41 - Iteration-->39 . Diff_b: 3.4 . Diff_s: 0.0 . Diff_mu: 269.9 . ALL: 273.3
+2024-10-15 20:31:41 - Iteration-->40 . Diff_b: 3.3 . Diff_s: 0.0 . Diff_mu: 264.5 . ALL: 267.7
+2024-10-15 20:31:41 - Iteration-->41 . Diff_b: 3.2 . Diff_s: 0.0 . Diff_mu: 259.4 . ALL: 262.5
+2024-10-15 20:31:41 - Iteration-->42 . Diff_b: 3.0 . Diff_s: 0.0 . Diff_mu: 254.6 . ALL: 257.7
+2024-10-15 20:31:41 - Iteration-->43 . Diff_b: 2.9 . Diff_s: 0.0 . Diff_mu: 250.2 . ALL: 253.2
+2024-10-15 20:31:41 - Iteration-->44 . Diff_b: 2.8 . Diff_s: 0.0 . Diff_mu: 246.1 . ALL: 249.0
+2024-10-15 20:31:41 - Iteration-->45 . Diff_b: 2.8 . Diff_s: 0.0 . Diff_mu: 242.3 . ALL: 245.1
+2024-10-15 20:31:41 - Iteration-->46 . Diff_b: 2.7 . Diff_s: 0.0 . Diff_mu: 238.8 . ALL: 241.4
+2024-10-15 20:31:41 - Iteration-->47 . Diff_b: 2.6 . Diff_s: 0.0 . Diff_mu: 235.5 . ALL: 238.1
+2024-10-15 20:31:41 - Iteration-->48 . Diff_b: 2.5 . Diff_s: 0.0 . Diff_mu: 232.4 . ALL: 234.9
+2024-10-15 20:31:41 - Iteration-->49 . Diff_b: 2.4 . Diff_s: 0.0 . Diff_mu: 229.5 . ALL: 232.0
+2024-10-15 20:31:41 - Iteration-->50 . Diff_b: 2.4 . Diff_s: 0.0 . Diff_mu: 226.9 . ALL: 229.2
+2024-10-15 20:31:41 - Iteration-->51 . Diff_b: 2.3 . Diff_s: 0.0 . Diff_mu: 224.4 . ALL: 226.7
+2024-10-15 20:31:41 - Iteration-->52 . Diff_b: 2.2 . Diff_s: 0.0 . Diff_mu: 222.0 . ALL: 224.3
+2024-10-15 20:31:41 - Iteration-->53 . Diff_b: 2.2 . Diff_s: 0.0 . Diff_mu: 219.8 . ALL: 222.0
+2024-10-15 20:31:41 - Iteration-->54 . Diff_b: 2.1 . Diff_s: 0.0 . Diff_mu: 217.8 . ALL: 219.9
+2024-10-15 20:31:41 - Iteration-->55 . Diff_b: 2.1 . Diff_s: 0.0 . Diff_mu: 215.8 . ALL: 217.9
+2024-10-15 20:31:41 - Iteration-->56 . Diff_b: 2.0 . Diff_s: 0.0 . Diff_mu: 214.0 . ALL: 216.0
+2024-10-15 20:31:41 - Iteration-->57 . Diff_b: 2.0 . Diff_s: 0.0 . Diff_mu: 212.3 . ALL: 214.2
+2024-10-15 20:31:41 - Iteration-->58 . Diff_b: 1.9 . Diff_s: 0.0 . Diff_mu: 210.6 . ALL: 212.6
+2024-10-15 20:31:41 - Iteration-->59 . Diff_b: 1.9 . Diff_s: 0.0 . Diff_mu: 209.1 . ALL: 211.0
+2024-10-15 20:31:41 - Iteration-->60 . Diff_b: 1.8 . Diff_s: 0.0 . Diff_mu: 207.6 . ALL: 209.4
+2024-10-15 20:31:41 - Iteration-->61 . Diff_b: 1.8 . Diff_s: 0.0 . Diff_mu: 206.2 . ALL: 208.0
+2024-10-15 20:31:41 - Iteration-->62 . Diff_b: 1.7 . Diff_s: 0.0 . Diff_mu: 204.9 . ALL: 206.6
+2024-10-15 20:31:41 - Iteration-->63 . Diff_b: 1.7 . Diff_s: 0.0 . Diff_mu: 203.6 . ALL: 205.3
+2024-10-15 20:31:41 - Iteration-->64 . Diff_b: 1.6 . Diff_s: 1.2 . Diff_mu: 304.4 . ALL: 307.2
+2024-10-15 20:31:41 - Iteration-->65 . Diff_b: 58.3 . Diff_s: 1.5 . Diff_mu: 475.6 . ALL: 535.4
+2024-10-15 20:31:41 - Iteration-->66 . Diff_b: 70.5 . Diff_s: 1.2 . Diff_mu: 497.7 . ALL: 569.3
+2024-10-15 20:31:41 - Iteration-->67 . Diff_b: 66.6 . Diff_s: 1.2 . Diff_mu: 474.5 . ALL: 542.3
+2024-10-15 20:31:41 - Iteration-->68 . Diff_b: 72.0 . Diff_s: 1.2 . Diff_mu: 482.7 . ALL: 555.8
+2024-10-15 20:31:41 - Iteration-->69 . Diff_b: 68.1 . Diff_s: 1.2 . Diff_mu: 478.9 . ALL: 548.1
+2024-10-15 20:31:41 - Iteration-->70 . Diff_b: 73.2 . Diff_s: 1.2 . Diff_mu: 487.1 . ALL: 561.5
+2024-10-15 20:31:41 - Iteration-->71 . Diff_b: 69.5 . Diff_s: 1.2 . Diff_mu: 483.3 . ALL: 553.9
+2024-10-15 20:31:41 - Iteration-->72 . Diff_b: 74.4 . Diff_s: 1.2 . Diff_mu: 491.6 . ALL: 567.1
+2024-10-15 20:31:41 - Iteration-->73 . Diff_b: 70.8 . Diff_s: 1.2 . Diff_mu: 487.7 . ALL: 559.7
+2024-10-15 20:31:41 - Iteration-->74 . Diff_b: 75.5 . Diff_s: 1.2 . Diff_mu: 496.0 . ALL: 572.7
+2024-10-15 20:31:41 - Iteration-->75 . Diff_b: 72.1 . Diff_s: 1.2 . Diff_mu: 492.1 . ALL: 565.4
+2024-10-15 20:31:41 - Iteration-->76 . Diff_b: 76.6 . Diff_s: 1.2 . Diff_mu: 500.5 . ALL: 578.3
+2024-10-15 20:31:41 - Iteration-->77 . Diff_b: 73.3 . Diff_s: 1.2 . Diff_mu: 496.5 . ALL: 571.0
+2024-10-15 20:31:41 - Iteration-->78 . Diff_b: 77.7 . Diff_s: 1.7 . Diff_mu: 565.5 . ALL: 644.9
+2024-10-15 20:31:41 - Iteration-->79 . Diff_b: 140.2 . Diff_s: 2.0 . Diff_mu: 845.9 . ALL: 988.1
+2024-10-15 20:31:41 - Iteration-->80 . Diff_b: 148.5 . Diff_s: 1.7 . Diff_mu: 880.1 . ALL: 1030.4
+2024-10-15 20:31:41 - Iteration-->81 . Diff_b: 145.9 . Diff_s: 1.7 . Diff_mu: 822.2 . ALL: 969.7
+2024-10-15 20:31:41 - Iteration-->82 . Diff_b: 152.6 . Diff_s: 1.7 . Diff_mu: 861.8 . ALL: 1016.1
+2024-10-15 20:31:41 - Iteration-->83 . Diff_b: 149.8 . Diff_s: 1.7 . Diff_mu: 840.0 . ALL: 991.5
+2024-10-15 20:31:41 - Iteration-->84 . Diff_b: 156.4 . Diff_s: 1.7 . Diff_mu: 878.8 . ALL: 1037.0
+2024-10-15 20:31:41 - Iteration-->85 . Diff_b: 153.7 . Diff_s: 1.7 . Diff_mu: 857.5 . ALL: 1012.9
+2024-10-15 20:31:41 - Iteration-->86 . Diff_b: 160.2 . Diff_s: 1.7 . Diff_mu: 895.6 . ALL: 1057.4
+2024-10-15 20:31:41 - Iteration-->87 . Diff_b: 157.5 . Diff_s: 1.7 . Diff_mu: 874.7 . ALL: 1033.8
+2024-10-15 20:31:41 - Iteration-->88 . Diff_b: 163.8 . Diff_s: 1.7 . Diff_mu: 911.9 . ALL: 1077.4
+2024-10-15 20:31:41 - Iteration-->89 . Diff_b: 161.1 . Diff_s: 1.7 . Diff_mu: 891.5 . ALL: 1054.3
+2024-10-15 20:31:41 - Iteration-->90 . Diff_b: 167.3 . Diff_s: 1.7 . Diff_mu: 927.9 . ALL: 1096.9
+2024-10-15 20:31:41 - Iteration-->91 . Diff_b: 164.7 . Diff_s: 1.7 . Diff_mu: 907.9 . ALL: 1074.3
+2024-10-15 20:31:41 - Iteration-->92 . Diff_b: 170.8 . Diff_s: 1.7 . Diff_mu: 943.6 . ALL: 1116.1
+2024-10-15 20:31:41 - Iteration-->93 . Diff_b: 168.1 . Diff_s: 1.7 . Diff_mu: 924.0 . ALL: 1093.9
+2024-10-15 20:31:41 - Iteration-->94 . Diff_b: 174.1 . Diff_s: 1.7 . Diff_mu: 959.0 . ALL: 1134.8
+2024-10-15 20:31:41 - Iteration-->95 . Diff_b: 171.5 . Diff_s: 1.7 . Diff_mu: 939.8 . ALL: 1113.0
+2024-10-15 20:31:41 - Iteration-->96 . Diff_b: 177.4 . Diff_s: 3.8 . Diff_mu: 1074.0 . ALL: 1255.2
+2024-10-15 20:31:42 - Iteration-->97 . Diff_b: 677.1 . Diff_s: 4.0 . Diff_mu: 2819.5 . ALL: 3500.6
+2024-10-15 20:31:42 - Iteration-->98 . Diff_b: 983.6 . Diff_s: 4.3 . Diff_mu: 4224.7 . ALL: 5212.6
+2024-10-15 20:31:42 - Iteration-->99 . Diff_b: 1119.7 . Diff_s: 4.3 . Diff_mu: 4909.1 . ALL: 6033.1
+2024-10-15 20:31:42 - The RSparsePro algorithm didn't converge.
+2024-10-15 20:31:42 - Attainable coverage for effect groups: [1. 1. 0. 0. 0. 0. 0. 1. 1. 0.]
+2024-10-15 20:31:42 - Max ld across effect groups: 0.996.
+2024-10-15 20:31:42 - Min ld within effect groups: 1.0.
+2024-10-15 20:31:42 - vare = 0.0023
+2024-10-15 20:31:42 - Iteration-->0 . Diff_b: 1215.3 . Diff_s: 3.2 . Diff_mu: 4997.5 . ALL: 6215.9
+2024-10-15 20:31:42 - Iteration-->1 . Diff_b: 1583.9 . Diff_s: 1.4 . Diff_mu: 10511.1 . ALL: 12096.5
+2024-10-15 20:31:42 - Iteration-->2 . Diff_b: 2959.5 . Diff_s: 0.0 . Diff_mu: 20828.7 . ALL: 23788.2
+2024-10-15 20:31:42 - Iteration-->3 . Diff_b: 6194.3 . Diff_s: 1.4 . Diff_mu: 42383.7 . ALL: 48579.3
+2024-10-15 20:31:42 - Iteration-->4 . Diff_b: 11145.0 . Diff_s: 0.0 . Diff_mu: 83869.5 . ALL: 95014.5
+2024-10-15 20:31:42 - Iteration-->5 . Diff_b: 23740.0 . Diff_s: 0.0 . Diff_mu: 170249.6 . ALL: 193989.6
+2024-10-15 20:31:42 - The RSparsePro algorithm didn't converge.
+2024-10-15 20:31:42 - Attainable coverage for effect groups: [1. 1. 0. 0. 1. 0. 0. 0. 1. 1.]
+2024-10-15 20:31:42 - Max ld across effect groups: 0.994.
+2024-10-15 20:31:42 - Min ld within effect groups: 1.0.
+2024-10-15 20:31:42 - vare = 0.0034
+2024-10-15 20:31:43 - Iteration-->0 . Diff_b: 133.5 . Diff_s: 2.9 . Diff_mu: 377.2 . ALL: 513.6
+2024-10-15 20:31:43 - Iteration-->1 . Diff_b: 15.8 . Diff_s: 1.5 . Diff_mu: 472.3 . ALL: 489.6
+2024-10-15 20:31:43 - Iteration-->2 . Diff_b: 13.7 . Diff_s: 2.0 . Diff_mu: 477.6 . ALL: 493.3
+2024-10-15 20:31:43 - Iteration-->3 . Diff_b: 21.6 . Diff_s: 0.0 . Diff_mu: 419.6 . ALL: 441.2
+2024-10-15 20:31:43 - Iteration-->4 . Diff_b: 22.0 . Diff_s: 2.8 . Diff_mu: 454.6 . ALL: 479.4
+2024-10-15 20:31:43 - Iteration-->5 . Diff_b: 51.2 . Diff_s: 2.0 . Diff_mu: 619.7 . ALL: 672.9
+2024-10-15 20:31:43 - Iteration-->6 . Diff_b: 64.1 . Diff_s: 0.0 . Diff_mu: 895.4 . ALL: 959.5
+2024-10-15 20:31:43 - Iteration-->7 . Diff_b: 72.6 . Diff_s: 0.0 . Diff_mu: 1145.2 . ALL: 1217.8
+2024-10-15 20:31:43 - Iteration-->8 . Diff_b: 94.9 . Diff_s: 0.0 . Diff_mu: 1472.8 . ALL: 1567.7
+2024-10-15 20:31:43 - Iteration-->9 . Diff_b: 123.2 . Diff_s: 0.0 . Diff_mu: 1917.9 . ALL: 2041.1
+2024-10-15 20:31:43 - Iteration-->10 . Diff_b: 160.0 . Diff_s: 0.0 . Diff_mu: 2495.2 . ALL: 2655.2
+2024-10-15 20:31:43 - Iteration-->11 . Diff_b: 207.8 . Diff_s: 0.0 . Diff_mu: 3245.3 . ALL: 3453.0
+2024-10-15 20:31:43 - Iteration-->12 . Diff_b: 269.9 . Diff_s: 0.0 . Diff_mu: 4219.7 . ALL: 4489.6
+2024-10-15 20:31:43 - Iteration-->13 . Diff_b: 350.5 . Diff_s: 0.0 . Diff_mu: 5485.5 . ALL: 5836.1
+2024-10-15 20:31:43 - Iteration-->14 . Diff_b: 455.4 . Diff_s: 0.0 . Diff_mu: 7130.0 . ALL: 7585.3
+2024-10-15 20:31:43 - Iteration-->15 . Diff_b: 591.5 . Diff_s: 0.0 . Diff_mu: 9266.3 . ALL: 9857.8
+2024-10-15 20:31:43 - Iteration-->16 . Diff_b: 768.4 . Diff_s: 0.0 . Diff_mu: 12041.6 . ALL: 12810.1
+2024-10-15 20:31:43 - Iteration-->17 . Diff_b: 998.3 . Diff_s: 0.0 . Diff_mu: 15647.1 . ALL: 16645.4
+2024-10-15 20:31:43 - Iteration-->18 . Diff_b: 1296.8 . Diff_s: 0.0 . Diff_mu: 20331.1 . ALL: 21628.0
+2024-10-15 20:31:43 - Iteration-->19 . Diff_b: 1684.8 . Diff_s: 0.0 . Diff_mu: 26416.2 . ALL: 28101.0
+2024-10-15 20:31:43 - Iteration-->20 . Diff_b: 2188.7 . Diff_s: 0.0 . Diff_mu: 34321.7 . ALL: 36510.4
+2024-10-15 20:31:43 - Iteration-->21 . Diff_b: 2843.4 . Diff_s: 0.0 . Diff_mu: 44591.9 . ALL: 47435.4
+2024-10-15 20:31:43 - Iteration-->22 . Diff_b: 3694.0 . Diff_s: 0.0 . Diff_mu: 57934.5 . ALL: 61628.5
+2024-10-15 20:31:43 - Iteration-->23 . Diff_b: 4799.0 . Diff_s: 0.0 . Diff_mu: 75268.4 . ALL: 80067.5
+2024-10-15 20:31:43 - Iteration-->24 . Diff_b: 6234.6 . Diff_s: 0.0 . Diff_mu: 97787.8 . ALL: 104022.4
+2024-10-15 20:31:43 - The RSparsePro algorithm didn't converge.
+2024-10-15 20:31:43 - Attainable coverage for effect groups: [1. 1. 1. 1. 0. 0. 0. 1. 1. 1.]
+2024-10-15 20:31:43 - Max ld across effect groups: 0.897.
+2024-10-15 20:31:43 - Min ld within effect groups: 1.0.
+2024-10-15 20:31:43 - vare = 0.0051
+2024-10-15 20:31:44 - Iteration-->0 . Diff_b: 156.1 . Diff_s: 3.1 . Diff_mu: 522.7 . ALL: 681.9
+2024-10-15 20:31:44 - Iteration-->1 . Diff_b: 62.5 . Diff_s: 0.1 . Diff_mu: 569.2 . ALL: 631.8
+2024-10-15 20:31:44 - Iteration-->2 . Diff_b: 82.5 . Diff_s: 0.0 . Diff_mu: 717.9 . ALL: 800.4
+2024-10-15 20:31:44 - Iteration-->3 . Diff_b: 111.5 . Diff_s: 1.4 . Diff_mu: 1300.2 . ALL: 1413.1
+2024-10-15 20:31:44 - Iteration-->4 . Diff_b: 153.0 . Diff_s: 0.0 . Diff_mu: 1328.9 . ALL: 1481.9
+2024-10-15 20:31:44 - Iteration-->5 . Diff_b: 229.3 . Diff_s: 0.0 . Diff_mu: 1885.3 . ALL: 2114.5
+2024-10-15 20:31:44 - Iteration-->6 . Diff_b: 324.7 . Diff_s: 0.0 . Diff_mu: 2672.4 . ALL: 2997.1
+2024-10-15 20:31:44 - Iteration-->7 . Diff_b: 460.3 . Diff_s: 0.0 . Diff_mu: 3788.1 . ALL: 4248.4
+2024-10-15 20:31:44 - Iteration-->8 . Diff_b: 652.5 . Diff_s: 0.0 . Diff_mu: 5369.6 . ALL: 6022.1
+2024-10-15 20:31:44 - Iteration-->9 . Diff_b: 924.9 . Diff_s: 0.0 . Diff_mu: 7611.3 . ALL: 8536.2
+2024-10-15 20:31:44 - Iteration-->10 . Diff_b: 1311.0 . Diff_s: 0.0 . Diff_mu: 10788.9 . ALL: 12100.0
+2024-10-15 20:31:44 - Iteration-->11 . Diff_b: 1858.4 . Diff_s: 0.0 . Diff_mu: 15293.1 . ALL: 17151.5
+2024-10-15 20:31:44 - Iteration-->12 . Diff_b: 2634.2 . Diff_s: 0.0 . Diff_mu: 21677.8 . ALL: 24312.1
+2024-10-15 20:31:44 - Iteration-->13 . Diff_b: 3734.0 . Diff_s: 0.0 . Diff_mu: 30728.0 . ALL: 34462.0
+2024-10-15 20:31:44 - Iteration-->14 . Diff_b: 5292.9 . Diff_s: 0.0 . Diff_mu: 43556.6 . ALL: 48849.5
+2024-10-15 20:31:44 - Iteration-->15 . Diff_b: 7502.6 . Diff_s: 0.0 . Diff_mu: 61740.9 . ALL: 69243.5
+2024-10-15 20:31:44 - Iteration-->16 . Diff_b: 10634.9 . Diff_s: 0.0 . Diff_mu: 87516.9 . ALL: 98151.8
+2024-10-15 20:31:44 - Iteration-->17 . Diff_b: 15074.8 . Diff_s: 0.0 . Diff_mu: 124054.0 . ALL: 139128.8
+2024-10-15 20:31:44 - The RSparsePro algorithm didn't converge.
+2024-10-15 20:31:44 - Attainable coverage for effect groups: [1. 1. 0. 0. 0. 0. 0. 0. 0. 0.]
+2024-10-15 20:31:44 - Max ld across effect groups: 0.996.
+2024-10-15 20:31:44 - Min ld within effect groups: 1.0.
+2024-10-15 20:31:44 - vare = 0.0076
+2024-10-15 20:31:45 - Iteration-->0 . Diff_b: 260.5 . Diff_s: 3.1 . Diff_mu: 975.2 . ALL: 1238.8
+2024-10-15 20:31:45 - Iteration-->1 . Diff_b: 331.1 . Diff_s: 2.4 . Diff_mu: 1629.5 . ALL: 1963.0
+2024-10-15 20:31:45 - Iteration-->2 . Diff_b: 618.8 . Diff_s: 0.0 . Diff_mu: 3121.0 . ALL: 3739.7
+2024-10-15 20:31:45 - Iteration-->3 . Diff_b: 1236.4 . Diff_s: 1.2 . Diff_mu: 6182.9 . ALL: 7420.4
+2024-10-15 20:31:45 - Iteration-->4 . Diff_b: 2182.1 . Diff_s: 0.0 . Diff_mu: 11257.2 . ALL: 13439.3
+2024-10-15 20:31:45 - Iteration-->5 . Diff_b: 4407.7 . Diff_s: 0.0 . Diff_mu: 22342.7 . ALL: 26750.4
+2024-10-15 20:31:45 - Iteration-->6 . Diff_b: 8549.4 . Diff_s: 0.0 . Diff_mu: 43326.3 . ALL: 51875.7
+2024-10-15 20:31:45 - Iteration-->7 . Diff_b: 16583.2 . Diff_s: 0.0 . Diff_mu: 84032.1 . ALL: 100615.3
+2024-10-15 20:31:45 - The RSparsePro algorithm didn't converge.
+2024-10-15 20:31:45 - Attainable coverage for effect groups: [1. 1. 0. 1. 0. 0. 0. 0. 0. 1.]
+2024-10-15 20:31:45 - Max ld across effect groups: 0.949.
+2024-10-15 20:31:45 - Min ld within effect groups: 1.0.
+2024-10-15 20:31:45 - vare = 0.0114
+2024-10-15 20:31:45 - Iteration-->0 . Diff_b: 161.0 . Diff_s: 3.1 . Diff_mu: 505.0 . ALL: 669.1
+2024-10-15 20:31:45 - Iteration-->1 . Diff_b: 152.2 . Diff_s: 1.9 . Diff_mu: 907.3 . ALL: 1061.4
+2024-10-15 20:31:45 - Iteration-->2 . Diff_b: 345.4 . Diff_s: 0.0 . Diff_mu: 1923.0 . ALL: 2268.4
+2024-10-15 20:31:45 - Iteration-->3 . Diff_b: 782.6 . Diff_s: 0.0 . Diff_mu: 4332.4 . ALL: 5115.0
+2024-10-15 20:31:45 - Iteration-->4 . Diff_b: 1761.7 . Diff_s: 0.0 . Diff_mu: 9750.6 . ALL: 11512.3
+2024-10-15 20:31:45 - Iteration-->5 . Diff_b: 3964.6 . Diff_s: 0.0 . Diff_mu: 21942.6 . ALL: 25907.1
+2024-10-15 20:31:45 - Iteration-->6 . Diff_b: 8921.4 . Diff_s: 0.0 . Diff_mu: 49377.1 . ALL: 58298.5
+2024-10-15 20:31:45 - Iteration-->7 . Diff_b: 20075.3 . Diff_s: 0.0 . Diff_mu: 111110.7 . ALL: 131186.1
+2024-10-15 20:31:45 - The RSparsePro algorithm didn't converge.
+2024-10-15 20:31:45 - Attainable coverage for effect groups: [1. 1. 0. 1. 0. 0. 0. 0. 0. 0.]
+2024-10-15 20:31:45 - Max ld across effect groups: 0.998.
+2024-10-15 20:31:45 - Min ld within effect groups: 1.0.
+2024-10-15 20:31:45 - vare = 0.0171
+2024-10-15 20:31:46 - Iteration-->0 . Diff_b: 179.3 . Diff_s: 2.5 . Diff_mu: 605.3 . ALL: 787.1
+2024-10-15 20:31:46 - Iteration-->1 . Diff_b: 155.8 . Diff_s: 0.0 . Diff_mu: 1054.2 . ALL: 1210.0
+2024-10-15 20:31:46 - Iteration-->2 . Diff_b: 286.9 . Diff_s: 1.5 . Diff_mu: 1972.4 . ALL: 2260.8
+2024-10-15 20:31:46 - Iteration-->3 . Diff_b: 534.7 . Diff_s: 1.5 . Diff_mu: 3697.9 . ALL: 4234.0
+2024-10-15 20:31:46 - Iteration-->4 . Diff_b: 1007.4 . Diff_s: 1.0 . Diff_mu: 6909.7 . ALL: 7918.1
+2024-10-15 20:31:46 - Iteration-->5 . Diff_b: 1884.9 . Diff_s: 0.0 . Diff_mu: 13007.4 . ALL: 14892.3
+2024-10-15 20:31:46 - Iteration-->6 . Diff_b: 3537.6 . Diff_s: 0.0 . Diff_mu: 24327.2 . ALL: 27864.8
+2024-10-15 20:31:46 - Iteration-->7 . Diff_b: 6634.2 . Diff_s: 0.0 . Diff_mu: 45620.2 . ALL: 52254.4
+2024-10-15 20:31:46 - Iteration-->8 . Diff_b: 12441.0 . Diff_s: 0.0 . Diff_mu: 85550.7 . ALL: 97991.7
+2024-10-15 20:31:46 - Iteration-->9 . Diff_b: 23330.4 . Diff_s: 0.0 . Diff_mu: 160431.4 . ALL: 183761.7
+2024-10-15 20:31:46 - The RSparsePro algorithm didn't converge.
+2024-10-15 20:31:46 - Attainable coverage for effect groups: [1. 1. 0. 0. 0. 0. 0. 0. 0. 0.]
+2024-10-15 20:31:46 - Max ld across effect groups: 0.998.
+2024-10-15 20:31:46 - Min ld within effect groups: 1.0.
+2024-10-15 20:31:46 - vare = 0.0256
+2024-10-15 20:31:47 - Iteration-->0 . Diff_b: 143.5 . Diff_s: 1.1 . Diff_mu: 430.6 . ALL: 575.3
+2024-10-15 20:31:47 - Iteration-->1 . Diff_b: 81.3 . Diff_s: 0.6 . Diff_mu: 366.9 . ALL: 448.8
+2024-10-15 20:31:47 - Iteration-->2 . Diff_b: 4.4 . Diff_s: 0.6 . Diff_mu: 33.6 . ALL: 38.6
+2024-10-15 20:31:47 - Iteration-->3 . Diff_b: 11.6 . Diff_s: 0.9 . Diff_mu: 57.4 . ALL: 69.9
+2024-10-15 20:31:47 - Iteration-->4 . Diff_b: 32.0 . Diff_s: 2.0 . Diff_mu: 132.4 . ALL: 166.3
+2024-10-15 20:31:47 - Iteration-->5 . Diff_b: 227.6 . Diff_s: 2.5 . Diff_mu: 895.5 . ALL: 1125.6
+2024-10-15 20:31:47 - Iteration-->6 . Diff_b: 428.2 . Diff_s: 2.9 . Diff_mu: 1723.4 . ALL: 2154.5
+2024-10-15 20:31:47 - Iteration-->7 . Diff_b: 813.8 . Diff_s: 3.0 . Diff_mu: 3219.2 . ALL: 4036.0
+2024-10-15 20:31:47 - Iteration-->8 . Diff_b: 1543.7 . Diff_s: 3.0 . Diff_mu: 6170.7 . ALL: 7717.4
+2024-10-15 20:31:47 - Iteration-->9 . Diff_b: 2931.2 . Diff_s: 3.0 . Diff_mu: 11627.4 . ALL: 14561.6
+2024-10-15 20:31:47 - Iteration-->10 . Diff_b: 5566.2 . Diff_s: 3.0 . Diff_mu: 22219.6 . ALL: 27788.8
+2024-10-15 20:31:47 - Iteration-->11 . Diff_b: 10571.4 . Diff_s: 3.0 . Diff_mu: 41962.3 . ALL: 52536.8
+2024-10-15 20:31:47 - Iteration-->12 . Diff_b: 20067.6 . Diff_s: 3.0 . Diff_mu: 80069.6 . ALL: 100140.1
+2024-10-15 20:31:47 - The RSparsePro algorithm didn't converge.
+2024-10-15 20:31:47 - Attainable coverage for effect groups: [1. 1. 0. 0. 0. 0. 1. 0. 1. 0.]
+2024-10-15 20:31:47 - Max ld across effect groups: 0.998.
+2024-10-15 20:31:47 - Min ld within effect groups: 1.0.
+2024-10-15 20:31:47 - vare = 0.0384
+2024-10-15 20:31:47 - Iteration-->0 . Diff_b: 110.5 . Diff_s: 0.8 . Diff_mu: 145.2 . ALL: 256.5
+2024-10-15 20:31:47 - Iteration-->1 . Diff_b: 0.2 . Diff_s: 0.3 . Diff_mu: 85.7 . ALL: 86.3
+2024-10-15 20:31:47 - Iteration-->2 . Diff_b: 0.1 . Diff_s: 0.1 . Diff_mu: 12.7 . ALL: 12.9
+2024-10-15 20:31:47 - Iteration-->3 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 2.3 . ALL: 2.4
+2024-10-15 20:31:47 - Iteration-->4 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 0.5 . ALL: 0.5
+2024-10-15 20:31:47 - Iteration-->5 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 0.1 . ALL: 0.1
+2024-10-15 20:31:47 - Iteration-->6 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 0.0 . ALL: 0.0
+2024-10-15 20:31:47 - Iteration-->7 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 0.0 . ALL: 0.0
+2024-10-15 20:31:47 - Iteration-->8 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 0.0 . ALL: 0.0
+2024-10-15 20:31:47 - Iteration-->9 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 0.0 . ALL: 0.0
+2024-10-15 20:31:47 - Iteration-->10 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 0.0 . ALL: 0.0
+2024-10-15 20:31:47 - Iteration-->11 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 0.0 . ALL: 0.0
+2024-10-15 20:31:47 - Iteration-->12 . Diff_b: 0.0 . Diff_s: 0.0 . Diff_mu: 0.0 . ALL: 0.0
+2024-10-15 20:31:47 - The RSparsePro algorithm has converged.
+2024-10-15 20:31:47 - Attainable coverage for effect groups: [1.   1.   0.99 0.08 0.   0.   0.   0.03 0.   0.01]
+2024-10-15 20:31:47 - Max ld across effect groups: 0.086.
+2024-10-15 20:31:47 - Min ld within effect groups: 0.827.
+2024-10-15 20:31:47 - vare = 0.0577
+2024-10-15 20:31:48 - The 0-th effect group contains effective variants:
+2024-10-15 20:31:48 - causal variants: ['rs6686568', 'rs11588632', 'rs1883466', 'rs534695551', 'rs6600264', 'rs6600265', 'rs72659077', 'rs4649067', 'rs138937982', 'rs72659079', 'rs77642975', 'rs4649075', 'rs6686564', 'rs10158827', 'rs4648900', 'rs55758151', 'rs4649073', 'rs4649074', 'rs2375111', 'rs56389534', 'rs28487940', 'rs1883463', 'rs11587460', 'rs7527379']
+2024-10-15 20:31:48 - variant probabilities for this effect group: [0.1627 0.1481 0.1442 0.1442 0.1314 0.0734 0.0369 0.012  0.012  0.012
  0.012  0.0072 0.0067 0.0067 0.005  0.0048 0.0048 0.0048 0.0048 0.0046
  0.0036 0.0034 0.0034 0.0034]
-2024-10-02 20:39:05 - zscore for this effect group: [7.1231 7.1099 7.1061 7.1061 7.093  7.0104 6.9118 6.7475 6.7466 6.7466
+2024-10-15 20:31:48 - zscore for this effect group: [7.1231 7.1099 7.1061 7.1061 7.093  7.0104 6.9118 6.7475 6.7466 6.7466
  6.7466 6.6717 6.6594 6.6594 6.6162 6.6102 6.6102 6.6102 6.6102 6.6047
  6.5675 6.5592 6.5561 6.5561]
 
-2024-10-02 20:39:05 - The 1-th effect group contains effective variants:
-2024-10-02 20:39:05 - causal variants: ['rs7523614', 'rs11249188', 'rs4072968', 'rs4282746', 'rs146459955']
-2024-10-02 20:39:05 - variant probabilities for this effect group: [0.8682 0.0454 0.0168 0.0129 0.0123]
-2024-10-02 20:39:05 - zscore for this effect group: [7.0589 6.6276 6.4763 6.4353 6.4281]
+2024-10-15 20:31:48 - The 1-th effect group contains effective variants:
+2024-10-15 20:31:48 - causal variants: ['rs7523614', 'rs11249188', 'rs4072968', 'rs4282746', 'rs146459955']
+2024-10-15 20:31:48 - variant probabilities for this effect group: [0.8682 0.0454 0.0168 0.0129 0.0123]
+2024-10-15 20:31:48 - zscore for this effect group: [7.0589 6.6276 6.4763 6.4353 6.4281]
 
-2024-10-02 20:39:05 - The 2-th effect group contains effective variants:
-2024-10-02 20:39:05 - causal variants: ['rs421483', 'rs311429', 'rs311431', 'rs170169', 'rs374999', 'rs448520', 'rs430022', 'rs394618', 'rs401902', 'rs378472', 'rs405018', 'rs380497', 'rs434956', 'rs445381', 'rs10903021', 'rs389865']
-2024-10-02 20:39:05 - variant probabilities for this effect group: [0.3825 0.1148 0.093  0.0566 0.0258 0.0258 0.0258 0.0258 0.0258 0.0258
+2024-10-15 20:31:48 - The 2-th effect group contains effective variants:
+2024-10-15 20:31:48 - causal variants: ['rs421483', 'rs311429', 'rs311431', 'rs170169', 'rs374999', 'rs448520', 'rs430022', 'rs394618', 'rs401902', 'rs378472', 'rs405018', 'rs380497', 'rs434956', 'rs445381', 'rs10903021', 'rs389865']
+2024-10-15 20:31:48 - variant probabilities for this effect group: [0.3825 0.1148 0.093  0.0566 0.0258 0.0258 0.0258 0.0258 0.0258 0.0258
  0.0258 0.0258 0.0258 0.0258 0.0258 0.0258]
-2024-10-02 20:39:05 - zscore for this effect group: [6.7778 6.5977 6.5659 6.4896 6.3673 6.3673 6.3673 6.3673 6.3673 6.3673
+2024-10-15 20:31:48 - zscore for this effect group: [6.7778 6.5977 6.5659 6.4896 6.3673 6.3673 6.3673 6.3673 6.3673 6.3673
  6.3673 6.3673 6.3673 6.3673 6.3673 6.3673]
 
