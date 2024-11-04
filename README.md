@@ -64,3 +64,5 @@ Additionally, the [log file](dat/test.rsparsepro.log) records the execution proc
 ## Citations
 
 If you find RSparsePro useful, please cite:
+
+[Wenmin Zhang, Tianyuan Lu, Rob Sladek, Josée Dupuis, Guillaume Lettre. Robust fine-mapping in the presence of linkage disequilibrium mismatch](https://biorxiv.org/cgi/content/short/2024.10.29.620968v1)
