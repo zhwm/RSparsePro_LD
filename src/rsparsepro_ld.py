@@ -11,47 +11,47 @@ def title():
     logging.info('* (C) Wenmin Zhang (wenmin.zhang@mail.mcgill.ca)                     *')
     logging.info('**********************************************************************')
 
-class RSparsePro(object):
-    def __init__(self, P, K, R, vare):
-        self.p = P
-        self.k = K
-        self.vare = vare
-        if vare != 0:
+class RSparsePro(object):						# Variational fine-mapping model with K latent causal-effect components
+    def __init__(self, P, K, R, vare):					# Initialize model parameters and variational quantities
+        self.p = P							# Number of variants in the locus
+        self.k = K							# Maximum number of latent causal effects
+        self.vare = vare						# LD mismatch parameter
+        if vare != 0:							# Precompute matrix used in z-score denoising/update
             self.mat = np.dot(R, np.linalg.inv(np.eye(self.p) + 1/vare * R))
-        self.beta_mu = np.zeros([self.p, self.k])
-        self.gamma = np.zeros([self.p, self.k])
-        self.tilde_b = np.zeros((self.p,))
+        self.beta_mu = np.zeros([self.p, self.k])			# Variational posterior means of effect sizes for all SNP-effect pairs
+        self.gamma = np.zeros([self.p, self.k])				# Variational posterior assignment probabilities for all SNP-effect pairs
+        self.tilde_b = np.zeros((self.p,))				# Latent denoised z-score vector
 
-    def infer_q_beta(self, R):
+    def infer_q_beta(self, R):						# Coordinate-ascent update for variational effect-size distributions
         for k in range(self.k):
             idxall = [x for x in range(self.k)]
             idxall.remove(k)
             beta_all_k = (self.gamma[:, idxall] * self.beta_mu[:, idxall]).sum(axis=1)
-            res_beta = self.tilde_b - np.dot(R, beta_all_k)
-            self.beta_mu[:, k] = res_beta
-            u = 0.5 * self.beta_mu[:, k] ** 2
-            self.gamma[:, k] = softmax(u)
+            res_beta = self.tilde_b - np.dot(R, beta_all_k)		# Residual signal attributable to current effect
+            self.beta_mu[:, k] = res_beta				# Update posterior mean effect size for component k
+            u = 0.5 * self.beta_mu[:, k] ** 2				# Unnormalized log-posterior score for assigning SNPs to effect k
+            self.gamma[:, k] = softmax(u)				# Normalize into posterior assignment probabilities across SNPs
 
-    def infer_tilde_b(self, bhat):
-        if self.vare == 0:
+    def infer_tilde_b(self, bhat):					# Update latent adjusted z-scores accounting for LD mismatch
+        if self.vare == 0:						# Standard SparsePro setting without LD mismatch correction
             self.tilde_b = bhat
-        else:
-            beta_all = (self.gamma * self.beta_mu).sum(axis=1)
-            self.tilde_b = np.dot(self.mat, (1/self.vare * bhat + beta_all))
+        else:								# RSparsePro setting
+            beta_all = (self.gamma * self.beta_mu).sum(axis=1)		# Current expected total genetic effect
+            self.tilde_b = np.dot(self.mat, (1/self.vare * bhat + beta_all))	# Posterior update of adjusted z-scores
 
-    def train(self, bhat, R, maxite, eps, ubound):
+    def train(self, bhat, R, maxite, eps, ubound):			# Main variational inference loop
         for ite in range(maxite):
             old_gamma = self.gamma.copy()
             old_beta = self.beta_mu.copy()
             old_tilde = self.tilde_b.copy()
-            self.infer_tilde_b(bhat)
-            self.infer_q_beta(R)
-            diff_gamma = np.linalg.norm(self.gamma-old_gamma)
+            self.infer_tilde_b(bhat)					# Update adjusted z-scores
+            self.infer_q_beta(R)					# Update variational effect distributions
+            diff_gamma = np.linalg.norm(self.gamma-old_gamma)		
             diff_beta = np.linalg.norm(self.beta_mu - old_beta)
             diff_b = np.linalg.norm(self.tilde_b - old_tilde)
-            all_diff = diff_gamma + diff_beta + diff_b
+            all_diff = diff_gamma + diff_beta + diff_b			# Aggregate convergence criterion
             logging.info('Iteration-->{} . Diff_b: {:.1f} . Diff_s: {:.1f} . Diff_mu: {:.1f} . ALL: {:.1f}'.format(ite, diff_b, diff_gamma, diff_beta, all_diff))
-            if all_diff < eps:
+            if all_diff < eps:						# Check convergence threshold
                 logging.info("The RSparsePro algorithm has converged.")
                 converged = True
                 break
@@ -61,44 +61,36 @@ class RSparsePro(object):
                 break
         return converged
 
-    def get_PIP(self):
+    def get_PIP(self):							# Compute SNP-level posterior inclusion probabilities
         return np.max((self.gamma), axis=1).round(4)
 
-    def get_effect(self, cthres):
-        vidx = np.argsort(-self.gamma, axis=1)
-        matidx = np.argsort(-self.gamma, axis=0)
+    def get_effect(self, cthres):					# Construct credible sets from variational assignments
+        vidx = np.argsort(-self.gamma, axis=1)				# For each SNP, rank latent effects by posterior probability
+        matidx = np.argsort(-self.gamma, axis=0)			# For each effect, rank SNPs by posterior probability
         mat_eff = np.zeros((self.p, self.k))
-        for p in range(self.p):
+        for p in range(self.p):						# Keep only strongest effect assignment per SNP
             mat_eff[p, vidx[p, 0]] = self.gamma[p, vidx[p, 0]]
         mat_eff[mat_eff < 1/(self.p+1)] = 0
-        csum = mat_eff.sum(axis=0).round(2)
+        csum = mat_eff.sum(axis=0).round(2)				# Total attainable coverage for each effect group
         logging.info("Attainable coverage for effect groups: {}".format(csum))
         eff = {}
         eff_gamma = {}
         eff_mu = {}
-        for k in range(self.k):
+        for k in range(self.k):						# Evaluate each latent effect component
             if csum[k] >= cthres:
                 p = 0
-                while np.sum(mat_eff[matidx[0:p, k], k]) < cthres * csum[k]:
+                while np.sum(mat_eff[matidx[0:p, k], k]) < cthres * csum[k]:	# Expand set until desired coverage achieved
                     p = p + 1
                 cidx = matidx[0:p, k].tolist()
                 eff[k] = cidx
                 eff_gamma[k] = mat_eff[cidx, k].round(4)
                 eff_mu[k] = self.beta_mu[cidx, k].round(4)
-        return eff, eff_gamma, eff_mu
+        return eff, eff_gamma, eff_mu					# Return credible set summaries
 
     def get_ztilde(self):
         return self.tilde_b.round(4)
 
-    #def get_resz(self, bhat, ld, eff):
-    #    idx = [i[0] for i in eff.values()]
-    #    realmu = np.zeros(len(bhat))
-    #    realmu[idx] = np.dot(np.linalg.inv(ld[np.ix_(idx, idx)]), bhat[idx])
-    #    estz = np.dot(ld, realmu)
-    #    resz = bhat - estz
-    #    return resz.round(4)
-
-def get_eff_maxld(eff, ld):
+def get_eff_maxld(eff, ld):						# Compute the maximum LD between lead variants from different effect groups
     idx = [i[0] for i in eff.values()]
     if len(eff)>1:
         maxld = np.abs(np.tril(ld[np.ix_(idx,idx)],-1)).max()
@@ -106,7 +98,7 @@ def get_eff_maxld(eff, ld):
         maxld = 0.0
     return maxld
 
-def get_eff_minld(eff, ld):
+def get_eff_minld(eff, ld):						# Compute the minimum LD within each effect group
     if len(eff)==0:
         minld = 1.0
     else:
@@ -121,21 +113,20 @@ def get_ordered(eff_mu):
         ordered = True
     return ordered
 
-def adaptive_train(zscore, ld, K, maxite, eps, ubound, cthres, minldthres, maxldthres, eincre, varemax, varemin):
+def adaptive_train(zscore, ld, K, maxite, eps, ubound, cthres, minldthres, maxldthres, eincre, varemax, varemin):	# RSparsePro fitting with automatic LD-mismatch tuning
     vare = 0
     mc = False
-    while (not mc) or (not get_ordered(eff_mu)) or (minld < minldthres) or (maxld > maxldthres):
-        model = RSparsePro(len(zscore), K, ld, vare)
-        mc = model.train(zscore, ld, maxite, eps, ubound)
-        eff, eff_gamma, eff_mu = model.get_effect(cthres)
-        maxld = get_eff_maxld(eff, ld)
-        minld = get_eff_minld(eff, ld)
+    while (not mc) or (not get_ordered(eff_mu)) or (minld < minldthres) or (maxld > maxldthres):	# Continue until convergence
+        model = RSparsePro(len(zscore), K, ld, vare)			# Instantiate variational model using current mismatch parameter
+        mc = model.train(zscore, ld, maxite, eps, ubound)		# Run variational inference
+        eff, eff_gamma, eff_mu = model.get_effect(cthres)		# Extract inferred effect groups and credible sets
+        maxld = get_eff_maxld(eff, ld)					# Compute the maximum LD between lead variants from different effect groups
+        minld = get_eff_minld(eff, ld)					# Compute the minimum LD within each effect group
         logging.info("Max ld across effect groups: {}.".format(maxld))
         logging.info("Min ld within effect groups: {}.".format(minld))
         logging.info("vare = {}".format(round(vare,4)))
-        if vare > varemax or (len(eff)<2 and get_ordered(eff_mu)):
-            #logging.info("Algorithm didn't converge at the max vare. Setting K to 1.")
-            model = RSparsePro(len(zscore), 1, ld, 0)
+        if vare > varemax or (len(eff)<2 and get_ordered(eff_mu)):	# Stopping criteria
+            model = RSparsePro(len(zscore), 1, ld, 0)			# Fall back to single-effect SparsePro model
             mc = model.train(zscore, ld, maxite, eps, ubound)
             eff, eff_gamma, eff_mu = model.get_effect(cthres)
             break
@@ -143,10 +134,9 @@ def adaptive_train(zscore, ld, K, maxite, eps, ubound, cthres, minldthres, maxld
             vare = varemin
         else:
             vare *= eincre
-    ztilde = model.get_ztilde()
-    #resz = model.get_resz(zscore, ld, eff)
-    PIP = model.get_PIP()
-    return eff, eff_gamma, eff_mu, PIP, ztilde #resz
+    ztilde = model.get_ztilde()						# Retrieve final adjusted/denoised z-scores
+    PIP = model.get_PIP()						# Compute SNP-level posterior inclusion probabilities
+    return eff, eff_gamma, eff_mu, PIP, ztilde
 
 def parse_args():
     parser = argparse.ArgumentParser(description='RSparsePro Commands:')
@@ -180,7 +170,6 @@ if __name__ == '__main__':
     eff, eff_gamma, eff_mu, PIP, ztilde = adaptive_train(zfile['Z'], ld, args.K, args.maxite, args.eps, args.ubound, args.cthres, args.minldthres, args.maxldthres, args.eincre, args.varemax, args.varemin)
     zfile['PIP'] = PIP
     zfile['z_estimated'] = ztilde
-    #zfile['resz'] = resz
     zfile['cs'] = 0
     for e in eff:
         mcs_idx = [zfile['RSID'][j] for j in eff[e]]
