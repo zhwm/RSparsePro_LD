@@ -38,9 +38,9 @@ python src/rsparsepro_ld.py -h
 
 Example input files are included in the [dat](dat/) directory. 
 
-1. The **z-score** file: The column for z-scores must have the header 'Z', and the column for SNP index must have the header 'RSID'. Both columns are required. You may include additional columns in the file, but RSparsePro will not utilize other information. An example can be found at [test.z.txt](dat/test.z.txt).
+1. The **z-score** file: The column for z-scores must have the header 'Z', and the column for SNP index must have the header 'RSID'. Both columns are required. You may include additional columns in the file, but RSparsePro will not utilize other information. An example can be found at [EUR_1_25268937_26268937.txt](dat/EUR_1_25268937_26268937.txt). The GWAS summary statistics in this example were derived from the Global Lipids Genetics Consortium (GLGC) LDL cholesterol GWAS of individuals with European ancestry.
 
-2. The **LD** file: The LD file contains the LD matrix, which includes the Pearson correlation between each pair of variants, with values separated by a single space. An example can be found at [dat/ld.txt](dat/ld.txt).
+2. The **LD** file: The LD file contains the LD matrix, which includes the Pearson correlation between each pair of variants, with values separated by a single space. An example can be found at [EUR_1_25268937_26268937.ld](dat/EUR_1_25268937_26268937.ld).
 
 **While RSparsePro can handle allele flipping, it is strongly recommended to ensure the REF/ALT alleles used in calculating the LD matrix match those from the GWAS study.**
 
@@ -48,18 +48,31 @@ Example input files are included in the [dat](dat/) directory.
 
 We use `--z` and `--ld` to indicate the path to the zscore file and the ld file, respectively. Additionally, we can specify the path to save results with `--save`.
 
+Additional tuning parameters: 
+
+`--K`: largest number of causal signals (default=10)
+
+`--cthres`: attainable coverage threshold for credible set (default=0.95)
+
+`--eincre`: adjustment factor for error parameter (default=1.5)
+
+`--eps`: convergence criterion (default=1e-5)
+
 ```
-python src/rsparsepro_ld.py \
---z dat/test.z.txt \
---ld dat/ld.txt \
---save dat/test
+python src/rsparsepro_ld.py --z dat/EUR_1_25268937_26268937.txt --ld dat/EUR_1_25268937_26268937.ld --K 10 --cthres 0.95 --eincre 1.5 --save dat/EUR_1_25268937_26268937
+```
+
+The LD file can be generated from plink files (EUR_1_25268937_26268937.bed/bim/fam, available in the [dat](dat/) directory). The individual-level data provided in this example are from the 1000 Genomes Project.
+
+```
+plink --bfile dat/EUR_1_25268937_26268937 --extract dat/EUR_1_25268937_26268937.txt --r --matrix --keep-allele-order --out dat/EUR_1_25268937_26268937
 ```
 
 ## Output files
 
-After a successful execution of RSparsePro, we will append three new columns to the input z-score file in the output [result file](dat/test.rsparsepro.txt): `PIP` for posterior inclusion probability, `z_estimated` for estimated latent z-scores, and `cs` for credible sets. Variants in credible sets will have non-zero values in the `cs` column.
+After a successful execution of RSparsePro, we will append three new columns to the input z-score file in the output [result file](dat/EUR_1_25268937_26268937.rsparsepro.txt): `PIP` for posterior inclusion probability, `z_estimated` for estimated latent z-scores, and `cs` for credible sets. Variants in credible sets will have non-zero values in the `cs` column.
 
-Additionally, the [log file](dat/test.rsparsepro.log) records the execution process of the algorithm.
+Additionally, the [log file](dat/EUR_1_25268937_26268937.rsparsepro.log) records the execution process of the algorithm.
 
 ## Citations
 
