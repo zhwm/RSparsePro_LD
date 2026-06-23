@@ -34,6 +34,8 @@ To test the installation and display basic usages:
 python src/rsparsepro_ld.py -h
 ```
 
+The installation process is expected to require less than 1 minute.
+
 ## Input files
 
 Example input files are included in the [dat](dat/) directory. 
@@ -46,7 +48,7 @@ Example input files are included in the [dat](dat/) directory.
 
 ## Usage examples
 
-We use `--z` and `--ld` to indicate the path to the zscore file and the ld file, respectively. Additionally, we can specify the path to save results with `--save`.
+We use `--z` and `--ld` to indicate the path to the zscore file and the ld file, respectively. Additionally, we can specify the path to save results with `--save`. 
 
 Additional tuning parameters: 
 
@@ -62,7 +64,7 @@ Additional tuning parameters:
 python src/rsparsepro_ld.py --z dat/EUR_1_25268937_26268937.txt --ld dat/EUR_1_25268937_26268937.ld --K 10 --cthres 0.95 --eincre 1.5 --save dat/EUR_1_25268937_26268937
 ```
 
-The LD file can be generated from plink files (EUR_1_25268937_26268937.bed/bim/fam, available in the [dat](dat/) directory). The individual-level data provided in this example are from the 1000 Genomes Project.
+The computational runtime for this example is expected to be less than 1 minute. The LD file can be generated from plink files (EUR_1_25268937_26268937.bed/bim/fam, available in the [dat](dat/) directory). The individual-level data provided in this example are from the 1000 Genomes Project.
 
 ```
 plink --bfile dat/EUR_1_25268937_26268937 --extract dat/EUR_1_25268937_26268937.txt --r --matrix --keep-allele-order --out dat/EUR_1_25268937_26268937
